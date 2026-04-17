@@ -1,0 +1,931 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Text amb N-grams Destacats</title>
+        <style>
+        body {
+            font-family: Georgia, serif;
+            line-height: 1.8;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 40px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            border-bottom: 2px solid #4CAF50;
+            padding-bottom: 10px;
+            margin-bottom: 10px;
+        }
+        .info {
+            color: #666;
+            font-style: italic;
+            margin-bottom: 20px;
+        }
+        .text-content {
+            font-size: 16px;
+            color: #333;
+            white-space: pre-wrap;
+        }
+        .destacat {
+            background: #d4edda;
+            padding: 1px 3px;
+            border-radius: 2px;
+            font-weight: 500;
+        }
+    </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Text amb N-grams Destacats</h1>
+            <p class="info">2071 n-grams comuns trobats</p>
+            <div class="text-content">
+                
+
+<span class="destacat">CAROLA</span>
+de Q-ars Teatre
+PRÒLEG
+La meva <span class="destacat">mare</span>...si! La meva <span class="destacat">mare</span>...no! Paris...no! Però a <span class="destacat">tu</span>...no!!!
+(Tira <span class="destacat">paper</span> a terra) Vaig <span class="destacat">néixer</span>...si!...
+
+Vaig <span class="destacat">néixer</span> el <span class="destacat">dia</span> <span class="destacat">31</span> de <span class="destacat">desembre</span> del <span class="destacat">1899</span>.
+
+—Així <span class="destacat">tens</span> <span class="destacat">tants</span> <span class="destacat">anys</span> com el <span class="destacat">segle</span>!
+I la <span class="destacat">idea</span> va fer <span class="destacat">forat</span> en el seu <span class="destacat">cervell</span> <span class="destacat">d'editor</span> i ja no <span class="destacat">m'ha</span> <span class="destacat">deixat</span>
+<span class="destacat">tranquil·la</span>: —<span class="destacat">Carola</span> <span class="destacat">m'has</span> <span class="destacat">d'escriure</span> les teves <span class="destacat">memòries</span>. <span class="destacat">Fes-t'ho</span> com
+<span class="destacat">vulguis</span> <span class="destacat">sents</span>? Nosaltres te les <span class="destacat">endreçarem</span>! No <span class="destacat">t'has</span> de <span class="destacat">preocupar</span> de
+<span class="destacat">res</span>.
+
+I <span class="destacat">ara</span> em <span class="destacat">trobo</span> <span class="destacat">davant</span> del <span class="destacat">paper</span> en <span class="destacat">blanc</span> i <span class="destacat">l'obligació</span> <span class="destacat">d'escriure</span> la
+meva <span class="destacat">història</span>. ¿Per on he de <span class="destacat">començar</span>?
+1.
+
+Vaig <span class="destacat">néixer</span> el <span class="destacat">31</span> de <span class="destacat">desembre</span> de <span class="destacat">1899</span> al <span class="destacat">carrer</span> de Jaume Giralt, al <span class="destacat">cor</span>
+del <span class="destacat">barri</span> de <span class="destacat">Santa</span> <span class="destacat">Caterina</span>. La meva <span class="destacat">mare</span> <span class="destacat">tenia</span> una <span class="destacat">habitació</span>
+<span class="destacat">rellogada</span> en un <span class="destacat">tercer</span> <span class="destacat">pis</span>. Era una <span class="destacat">habitació</span> <span class="destacat">petita</span> que <span class="destacat">donava</span> al
+<span class="destacat">celobert</span>, un <span class="destacat">canal</span> per on <span class="destacat">desembocaven</span> <span class="destacat">crits</span> i <span class="destacat">plors</span> i <span class="destacat">rialles</span> i <span class="destacat">renecs</span> i
+unes <span class="destacat">pregàries</span> que també <span class="destacat">podien</span> <span class="destacat">semblar</span> <span class="destacat">renecs</span>.
+
+La meva <span class="destacat">mare</span> era <span class="destacat">soltera</span>. Jo <span class="destacat">portava</span> el seu <span class="destacat">cognom</span>: <span class="destacat">Milà</span>, i no <span class="destacat">sé</span> per
+què em <span class="destacat">dic</span> <span class="destacat">Carola</span>. Cada <span class="destacat">vegada</span> que jo ho <span class="destacat">preguntava</span>, la meva <span class="destacat">mare</span>
+em <span class="destacat">mirava</span> amb un <span class="destacat">aire</span> entre <span class="destacat">sorprès</span> i <span class="destacat">cansat</span> i em <span class="destacat">contestava</span>
+<span class="destacat">invariablement</span>: —A <span class="destacat">mi</span> què <span class="destacat">m'expliques</span>!
+La meva <span class="destacat">mare</span> era la <span class="destacat">filla</span> del <span class="destacat">porter</span> de la <span class="destacat">fàbrica</span> de <span class="destacat">can</span> <span class="destacat">Pujades</span> i el
+meu <span class="destacat">pare</span> era el <span class="destacat">noi</span> <span class="destacat">Pujades</span>. <span class="destacat">Tothom</span> ho <span class="destacat">sabia</span>, <span class="destacat">ningú</span> no <span class="destacat">m'ho</span> va <span class="destacat">dir</span>
+
+<span class="destacat">mai</span>. <span class="destacat">L'avi</span> <span class="destacat">Milà</span> hi havia <span class="destacat">entrat</span> a <span class="destacat">treballar</span> el 1893, un <span class="destacat">any</span> <span class="destacat">terrible</span> per la
+<span class="destacat">casa</span>. Era <span class="destacat">l'home</span> fidel de <span class="destacat">l'amo</span>, un <span class="destacat">bon</span> <span class="destacat">porter</span>, un <span class="destacat">gos</span> de <span class="destacat">presa</span> <span class="destacat">útil</span>.
+
+A <span class="destacat">mi</span>, la <span class="destacat">petita</span> <span class="destacat">casa</span> dels <span class="destacat">porters</span>, a <span class="destacat">l'entrada</span> de la <span class="destacat">fàbrica</span> de <span class="destacat">Can</span>
+<span class="destacat">Pujades</span>, ja em <span class="destacat">semblava</span> un palau. Quan hi anàvem de <span class="destacat">visita</span>, <span class="destacat">sèiem</span> a
+<span class="destacat">l'entorn</span> d'una <span class="destacat">taula</span> <span class="destacat">quadrada</span> <span class="destacat">coberta</span> amb una <span class="destacat">roba</span> d'un <span class="destacat">vermell</span> tan
+<span class="destacat">fosc</span> que <span class="destacat">semblava</span> <span class="destacat">engolir</span> la <span class="destacat">llum</span>. Hi havia <span class="destacat">llargues</span> <span class="destacat">estones</span> en <span class="destacat">silenci</span>.
+
+Només <span class="destacat">parlava</span> <span class="destacat">l'avi</span> i la meva <span class="destacat">mare</span> <span class="destacat">solia</span> <span class="destacat">dir-li</span> que <span class="destacat">sí</span>. <span class="destacat">Mentrestant</span>, la
+<span class="destacat">dona</span> de <span class="destacat">l'avi</span> em <span class="destacat">donava</span> <span class="destacat">berenar</span>. Es <span class="destacat">deia</span> <span class="destacat">Paula</span>, era una <span class="destacat">dona</span> <span class="destacat">jove</span>, molt
+<span class="destacat">lletja</span>, <span class="destacat">bigotuda</span>, <span class="destacat">forta</span>. Potser era <span class="destacat">bona</span> <span class="destacat">dona</span>, però es <span class="destacat">veia</span> <span class="destacat">clar</span> que no
+ens <span class="destacat">tenia</span> <span class="destacat">cap</span> <span class="destacat">simpatia</span>.
+
+Mentre el meu <span class="destacat">avi</span> <span class="destacat">parlava</span>, <span class="destacat">tenia</span> al <span class="destacat">davant</span> una <span class="destacat">capsa</span> de <span class="destacat">tabac</span> i <span class="destacat">anava</span>
+<span class="destacat">fent</span> <span class="destacat">cigarrets</span> de <span class="destacat">paper</span>, amb unes <span class="destacat">mans</span> <span class="destacat">grosses</span>, <span class="destacat">brutes</span> i <span class="destacat">destres</span>. <span class="destacat">Tenia</span>
+també <span class="destacat">enfront</span> seu una <span class="destacat">copa</span> molt <span class="destacat">petita</span> <span class="destacat">d'anís</span> i <span class="destacat">xarrupava</span> de tant en
+tant i llavors <span class="destacat">feia</span> <span class="destacat">petar</span> la <span class="destacat">llengua</span>. <span class="destacat">Parlava</span> en veu molt <span class="destacat">baixa</span>, que a <span class="destacat">mi</span>
+em <span class="destacat">semblava</span> un <span class="destacat">murmuri</span>.
+
+Quan ja era <span class="destacat">fosc</span>, la meva <span class="destacat">mare</span> i jo ens <span class="destacat">n'anàvem</span>. No <span class="destacat">sabia</span> que <span class="destacat">teníem</span>
+un <span class="destacat">temps</span> <span class="destacat">fixat</span> per <span class="destacat">viure</span> a la nostra <span class="destacat">cambra</span>, al <span class="destacat">barri</span> de <span class="destacat">Santa</span> <span class="destacat">Caterina</span>, i
+que <span class="destacat">passat</span> aquell <span class="destacat">terme</span>, aquella <span class="destacat">mena</span> de <span class="destacat">quarantena</span>, <span class="destacat">se'ns</span> <span class="destacat">donaria</span>
+<span class="destacat">entrada</span> al <span class="destacat">recinte</span> del feu <span class="destacat">Pujades</span>.
+
+Va ser al <span class="destacat">cap</span> de pocs <span class="destacat">dies</span> <span class="destacat">d'haver</span> jo <span class="destacat">complert</span> els <span class="destacat">sis</span> <span class="destacat">anys</span> que vam anar
+a <span class="destacat">viure</span> a la <span class="destacat">porteria</span>. Van <span class="destacat">posar</span> una <span class="destacat">cortina</span> que <span class="destacat">separava</span> <span class="destacat">l'habitació</span> de
+<span class="destacat">l'avi</span> en <span class="destacat">parts</span> <span class="destacat">desiguals</span>, i meva la <span class="destacat">mare</span> i jo <span class="destacat">dormíem</span> en un <span class="destacat">llit</span> <span class="destacat">arrambat</span>
+sota la <span class="destacat">finestra</span>.
+
+<span class="destacat">L'única</span> <span class="destacat">autoritat</span> que hi havia <span class="destacat">enfront</span> meu era <span class="destacat">l'avi</span> <span class="destacat">Milà</span> i jo no me
+<span class="destacat">l'estimava</span>.
+
+La meva <span class="destacat">mare</span> es va <span class="destacat">escapar</span> de <span class="destacat">casa</span> al <span class="destacat">cap</span> d'un <span class="destacat">any</span> de ser a <span class="destacat">Can</span>
+<span class="destacat">Pujades</span>, i jo encara no <span class="destacat">anava</span> al <span class="destacat">col·legi</span> quan la meva <span class="destacat">mare</span> va <span class="destacat">sortir</span> per
+la <span class="destacat">finestra</span>, amb un <span class="destacat">farcellet</span> a la <span class="destacat">mà</span>, que va <span class="destacat">deixar</span> un <span class="destacat">moment</span> a <span class="destacat">l'ampit</span>
+per <span class="destacat">saltar</span> <span class="destacat">millor</span> i va <span class="destacat">desaparèixer</span> sense <span class="destacat">dir-me</span> <span class="destacat">adéu</span>.
+
+2.
+
+Vaig <span class="destacat">conviure</span> amb <span class="destacat">ella</span> <span class="destacat">ben</span> bé fins als <span class="destacat">set</span> <span class="destacat">anys</span>. Però per més <span class="destacat">esforços</span>
+que faig no <span class="destacat">recordo</span> <span class="destacat">res</span>. La <span class="destacat">veig</span> <span class="destacat">sempre</span> <span class="destacat">d'esquena</span>. No la <span class="destacat">sé</span> <span class="destacat">veure</span>
+<span class="destacat">formant</span> <span class="destacat">part</span> de la <span class="destacat">gent</span> que jo <span class="destacat">coneixia</span>, com si <span class="destacat">ella</span> ja n'estigués
+definitivament fora abans de <span class="destacat">sortir</span> per la <span class="destacat">finestra</span>.
+
+—<span class="destacat">Mi-te-la</span>! I tant que <span class="destacat">s'assembla</span> a sa <span class="destacat">mare</span>.
+
+—<span class="destacat">Té</span> els mateixos <span class="destacat">ulls</span>. Uns <span class="destacat">ulls</span> <span class="destacat">golafres</span>, que no ho <span class="destacat">veus</span>?
+—Aquesta no es <span class="destacat">ficarà</span> al <span class="destacat">llit</span> amb el primer que <span class="destacat">arribi</span>, com sa <span class="destacat">mare</span>.
+
+Aquesta en sap, de <span class="destacat">fer-se</span> <span class="destacat">l'esquerpa</span>!
+—Era un <span class="destacat">pendó</span>, ta <span class="destacat">mare</span>, <span class="destacat">vet-ho</span> aquí.
+
+Tot això són <span class="destacat">frases</span> que <span class="destacat">recordo</span>, <span class="destacat">paraula</span> més <span class="destacat">paraula</span> <span class="destacat">menys</span>, que
+<span class="destacat">naixien</span> de <span class="destacat">l'anonimat</span> de la <span class="destacat">cuina</span> de <span class="destacat">Can</span> <span class="destacat">Pujades</span>, amb la interrupció de
+la cuinera:
+—I <span class="destacat">deixeu-la</span> <span class="destacat">estar</span>, <span class="destacat">pobra</span> <span class="destacat">Escaroleta</span>. <span class="destacat">Vine</span>'m aquí, <span class="destacat">ulls</span> <span class="destacat">grossos</span>!
+No m'afectaven les <span class="destacat">paraules</span>. <span class="destacat">M'havien</span> <span class="destacat">preparat</span> bé en el meu <span class="destacat">barri</span>,
+<span class="destacat">sabia</span> les <span class="destacat">contorsions</span> que <span class="destacat">calia</span> fer, com els <span class="destacat">gats</span> de <span class="destacat">terrat</span>, per <span class="destacat">caure</span> de
+<span class="destacat">quatre</span> <span class="destacat">potes</span>. Una <span class="destacat">educació</span> <span class="destacat">perfecta</span> per <span class="destacat">viure</span> sota la <span class="destacat">fèrula</span> de la <span class="destacat">Paula</span>
+i de <span class="destacat">l'avi</span>.
+
+No <span class="destacat">sabia</span>, però, que <span class="destacat">m'esperava</span> un <span class="destacat">nou</span> <span class="destacat">aprenentatge</span>:
+
+—<span class="destacat">Tardarem</span> a <span class="destacat">veure't</span>, <span class="destacat">Escaroleta</span>. Et <span class="destacat">volen</span> fer ser una <span class="destacat">senyora</span>, no ho
+<span class="destacat">sabies</span>? <span class="destacat">T'enviaran</span> a un <span class="destacat">pensionat</span>.
+
+3.
+
+El <span class="destacat">convent</span> del <span class="destacat">Bon</span> <span class="destacat">Consell</span>. El <span class="destacat">convent</span> del <span class="destacat">Bon</span> <span class="destacat">Consell</span> ja no <span class="destacat">existeix</span>. Va
+ser, en <span class="destacat">acabar-se</span> la nostra <span class="destacat">guerra</span>, <span class="destacat">presó</span> de <span class="destacat">dones</span>. Vaig <span class="destacat">passar-m'hi</span>
+<span class="destacat">tres</span> <span class="destacat">anys</span> i amb molt <span class="destacat">menys</span> <span class="destacat">temps</span> <span class="destacat">hauria</span> <span class="destacat">pogut</span> assimilar tots els
+<span class="destacat">coneixements</span> que les <span class="destacat">bones</span> <span class="destacat">dones</span> ens <span class="destacat">administraven</span>. <span class="destacat">Apreníem</span> les
+<span class="destacat">quatre</span> <span class="destacat">regles</span>, un <span class="destacat">francès</span> <span class="destacat">elemental</span>, <span class="destacat">geografia</span> <span class="destacat">d'Espanya</span>, <span class="destacat">història</span>
+<span class="destacat">d'Espanya</span>, i moltes <span class="destacat">oracions</span> que vaig memoritzar en <span class="destacat">castellà</span> i <span class="destacat">francès</span>
+sense saber <span class="destacat">massa</span> el que <span class="destacat">deia</span>. No <span class="destacat">sé</span> <span class="destacat">ben</span> bé quan vaig <span class="destacat">contreure</span> el <span class="destacat">vici</span>
+de <span class="destacat">llegir</span> però deuria ser <span class="destacat">aviat</span>. Vaig devorar <span class="destacat">vida</span> de <span class="destacat">sants</span> a <span class="destacat">dojo</span>, la
+<span class="destacat">història</span> dels <span class="destacat">Papes</span>, l'activitat missionera, <span class="destacat">qualsevol</span> <span class="destacat">cosa</span> em <span class="destacat">satisfeia</span>.
+
+<span class="destacat">L'estudi</span>, <span class="destacat">d'altra</span> <span class="destacat">banda</span>, tampoc no ens <span class="destacat">ocupava</span> <span class="destacat">massa</span> <span class="destacat">temps</span>: una <span class="destacat">hora</span>
+al <span class="destacat">matí</span> i <span class="destacat">dues</span> <span class="destacat">hores</span> a la <span class="destacat">tarda</span>. La <span class="destacat">resta</span> del <span class="destacat">temps</span> el <span class="destacat">passàvem</span> <span class="destacat">fregant</span>,
+<span class="destacat">repassant</span> <span class="destacat">roba</span>, <span class="destacat">planxant</span>, <span class="destacat">sargint</span>, <span class="destacat">apedaçant</span>. Tot allò que <span class="destacat">tocaves</span> era
+<span class="destacat">glaçat</span>. <span class="destacat">L'aigua</span> de <span class="destacat">fregar</span>, les <span class="destacat">patates</span> que <span class="destacat">pelaves</span> a la <span class="destacat">cuina</span>, els <span class="destacat">llits</span> que
+<span class="destacat">netejaves</span> amb <span class="destacat">aiguarràs</span> per <span class="destacat">lluitar</span> contra les <span class="destacat">xinxes</span> i les <span class="destacat">puces</span>. El <span class="destacat">fred</span>
+<span class="destacat">pujava</span> <span class="destacat">cames</span> <span class="destacat">amunt</span>, el <span class="destacat">sentia</span> com una <span class="destacat">roba</span> <span class="destacat">humida</span> sobre la meva
+<span class="destacat">pell</span>.
+
+Un <span class="destacat">dia</span> a la <span class="destacat">setmana</span> <span class="destacat">teníem</span> <span class="destacat">l'obligació</span> de <span class="destacat">rentar-nos</span> el <span class="destacat">cap</span> amb
+<span class="destacat">aiguarràs</span>. Per <span class="destacat">defensar-nos</span> dels <span class="destacat">polls</span>, <span class="destacat">naturalment</span>. Moltes noies
+xisclaven, jo en <span class="destacat">canvi</span>, el <span class="destacat">resistia</span> i això em <span class="destacat">donava</span> <span class="destacat">fama</span> de <span class="destacat">soferta</span>.
+
+I va ser allí, amb la <span class="destacat">comunió</span> <span class="destacat">diària</span> i la <span class="destacat">fam</span>, que <span class="destacat">s'estenia</span> <span class="destacat">lentament</span> per
+les <span class="destacat">venes</span>, que vaig <span class="destacat">descobrir</span> el meu poder. <span class="destacat">M'aplicava</span> a fer <span class="destacat">bona</span> <span class="destacat">lletra</span>,
+a <span class="destacat">llevar-me</span> al primer <span class="destacat">toc</span> de <span class="destacat">campana</span>, a <span class="destacat">contestar</span> <span class="destacat">amatent</span>: «<span class="destacat">Sí</span>, <span class="destacat">madre</span>,
+<span class="destacat">sí</span>, <span class="destacat">hermana</span>», i <span class="destacat">esperar</span> aquella <span class="destacat">mirada</span> <span class="destacat">aprovadora</span>, aquell <span class="destacat">inici</span> de
+<span class="destacat">somriure</span>.
+
+<span class="destacat">Sabia</span>, a <span class="destacat">mesura</span> que <span class="destacat">creixia</span>, que el <span class="destacat">temps</span> <span class="destacat">m'aniria</span> <span class="destacat">empenyent</span> <span class="destacat">cap</span> a
+fora <span class="destacat">d'aquelles</span> <span class="destacat">parets</span> <span class="destacat">protectores</span>, tan <span class="destacat">fredes</span>, però tan <span class="destacat">segures</span>. Jo no
+<span class="destacat">volia</span> <span class="destacat">anar-me'n</span> i per <span class="destacat">evitar-ho</span> <span class="destacat">m'inclinava</span> <span class="destacat">endavant</span> en una <span class="destacat">caiguda</span>
+<span class="destacat">vertiginosa</span>, amb una <span class="destacat">donació</span> de <span class="destacat">mi</span> mateixa que era al mateix <span class="destacat">temps</span>
+una <span class="destacat">pura</span> <span class="destacat">comèdia</span>.
+
+Un <span class="destacat">dia</span> la <span class="destacat">madre</span> em va <span class="destacat">dir</span> <span class="destacat">suaument</span> que em <span class="destacat">veia</span> <span class="destacat">desmillorada</span>, que la
+<span class="destacat">vida</span> del <span class="destacat">convent</span> no em <span class="destacat">convenia</span>, que <span class="destacat">m'enviarien</span> a <span class="destacat">casa</span>, que la
+<span class="destacat">senyora</span> <span class="destacat">Milà</span> em <span class="destacat">vindria</span> a <span class="destacat">buscar</span> aquella mateixa <span class="destacat">tarda</span>. La <span class="destacat">senyora</span>
+<span class="destacat">Milà</span> <span class="destacat">volia</span> <span class="destacat">dir</span> la <span class="destacat">Paula</span>. Ho vaig <span class="destacat">entendre</span> després quan la vaig <span class="destacat">veure</span>
+<span class="destacat">esperant-me</span>, <span class="destacat">bo</span> i <span class="destacat">dreta</span> a la <span class="destacat">porta</span>. —Has <span class="destacat">crescut</span> molt. No <span class="destacat">t'hauria</span>
+<span class="destacat">conegut</span> pas.
+
+En vaig <span class="destacat">sortir</span> amb <span class="destacat">dotze</span> <span class="destacat">anys</span> <span class="destacat">fets</span>, o <span class="destacat">sigui</span> la <span class="destacat">primavera</span> de <span class="destacat">l'any</span> <span class="destacat">11</span>.
+
+4.
+
+<span class="destacat">L'avi</span> es va <span class="destacat">asseure</span> a <span class="destacat">l'altre</span> <span class="destacat">cantó</span> de <span class="destacat">taula</span>, va <span class="destacat">mirar-me</span> amb un <span class="destacat">posat</span>
+del qui <span class="destacat">calibra</span> quina <span class="destacat">mena</span> <span class="destacat">d'animal</span> <span class="destacat">té</span> <span class="destacat">enfront</span> seu i en <span class="destacat">mesura</span>
+<span class="destacat">l'envestida</span>. I després de <span class="destacat">deixar</span> de <span class="destacat">mirar</span> i <span class="destacat">passar</span> una <span class="destacat">bona</span> <span class="destacat">estona</span>
+<span class="destacat">trinxant</span> <span class="destacat">tabac</span>, va <span class="destacat">alçar</span> de <span class="destacat">nou</span> els <span class="destacat">ulls</span>, va fer una <span class="destacat">ganyota</span> que
+<span class="destacat">semblava</span> un <span class="destacat">somriure</span> i va <span class="destacat">dir</span>: —Et <span class="destacat">buscarem</span> una <span class="destacat">feina</span>, <span class="destacat">ara</span>. Som
+<span class="destacat">treballadors</span>, nosaltres, <span class="destacat">sents</span>?
+De tant en tant, <span class="destacat">venien</span> uns <span class="destacat">homes</span> a <span class="destacat">parlar</span> amb <span class="destacat">l'avi</span>. <span class="destacat">Sovint</span> <span class="destacat">jugaven</span> a
+<span class="destacat">cartes</span>. <span class="destacat">Venien</span> cada <span class="destacat">dijous</span> i cada <span class="destacat">divendres</span>. Va ser un <span class="destacat">dijous</span> que vaig
+fer <span class="destacat">l'estranya</span> <span class="destacat">descoberta</span>. Vaig <span class="destacat">entrar</span> al <span class="destacat">menjador</span> per <span class="destacat">deixar</span> els
+<span class="destacat">coberts</span> <span class="destacat">eixugats</span> a <span class="destacat">l'armari</span> <span class="destacat">raconer</span> i vaig <span class="destacat">veure</span> com <span class="destacat">l'avi</span> <span class="destacat">agafava</span> una
+<span class="destacat">pistola</span> de les <span class="destacat">mans</span> d'un dels <span class="destacat">homes</span> i <span class="destacat">se</span> la <span class="destacat">posava</span> a la <span class="destacat">butxaca</span>. Potser
+jo no hi <span class="destacat">hauria</span> donat <span class="destacat">cap</span> <span class="destacat">importància</span>, perquè les <span class="destacat">coses</span> que ells <span class="destacat">feien</span> i
+les <span class="destacat">coses</span> que <span class="destacat">deien</span> no <span class="destacat">m'atenyien</span>, però <span class="destacat">l'avi</span> es va <span class="destacat">posar</span> <span class="destacat">furiós</span> en
+<span class="destacat">veure</span>'m i va <span class="destacat">cridar</span>: —<span class="destacat">Vés-te'n</span>, <span class="destacat">vés-te'n</span> a <span class="destacat">dormir</span>!
+
+I a dins el <span class="destacat">llit</span>, amb la <span class="destacat">finestra</span> <span class="destacat">aclarida</span> pel <span class="destacat">fanal</span> de <span class="destacat">l'entrada</span> vaig <span class="destacat">trobar</span>-
+me <span class="destacat">pensant</span> qui era jo, què hi havia al meu <span class="destacat">voltant</span> que <span class="destacat">formés</span> <span class="destacat">part</span> de
+<span class="destacat">mi</span> mateixa. Per aquella <span class="destacat">finestra</span> <span class="destacat">se</span> <span class="destacat">n'havia</span> <span class="destacat">anat</span> la meva <span class="destacat">mare</span>, sense
+<span class="destacat">deixar</span> ni una <span class="destacat">mica</span> <span class="destacat">d'enyorança</span>. Què <span class="destacat">enyorava</span> jo, <span class="destacat">enfonsada</span> en la <span class="destacat">dolça</span>
+<span class="destacat">escalfor</span> del <span class="destacat">llit</span>, encara amb aquell <span class="destacat">posat</span> de <span class="destacat">verge</span> <span class="destacat">morta</span> que les
+<span class="destacat">monges</span> <span class="destacat">m'havien</span> <span class="destacat">ensenyat</span>? A qui <span class="destacat">podia</span> <span class="destacat">desitjar</span> <span class="destacat">assemblar-me</span>? <span class="destacat">L'avi</span>,
+que em <span class="destacat">mirava</span> <span class="destacat">furiós</span> amb una <span class="destacat">pistola</span> a la <span class="destacat">mà</span> i em <span class="destacat">deia</span>: «<span class="destacat">Vés-te'n</span>» com
+<span class="destacat">volia</span> que <span class="destacat">fos</span> jo?
+Era <span class="destacat">obedient</span>, sense saber què <span class="destacat">obeïa</span>, com si <span class="destacat">anés</span> <span class="destacat">buidant</span> de <span class="destacat">mi</span>
+mateixa tot <span class="destacat">desig</span>. Com aquell <span class="destacat">dia</span> que <span class="destacat">l'avi</span> em va <span class="destacat">veure</span> <span class="destacat">parlant</span> amb el
+<span class="destacat">noi</span> de <span class="destacat">ca</span> <span class="destacat">l'adroguer</span>. Em va <span class="destacat">clavar</span> una <span class="destacat">plantofada</span> i em va <span class="destacat">arrossegar</span>
+pel <span class="destacat">braç</span> fins a <span class="destacat">casa</span>. I allí va <span class="destacat">desgranar</span> la <span class="destacat">lletania</span>: «Ja <span class="destacat">tens</span> a qui
+<span class="destacat">assemblar-te</span>». Aquell <span class="destacat">dia</span> va <span class="destacat">sortir</span> fins i tot la seva <span class="destacat">dona</span>, la <span class="destacat">mare</span> de la
+meva <span class="destacat">mare</span>, com si <span class="destacat">hagués</span> de <span class="destacat">quedar</span> <span class="destacat">ben</span> <span class="destacat">demostrat</span> que tota una
+<span class="destacat">determinada</span> <span class="destacat">ascendència</span> <span class="destacat">femenina</span> <span class="destacat">tenia</span> el poder de <span class="destacat">perpetuar</span> la
+<span class="destacat">mena</span> <span class="destacat">d'animal</span> <span class="destacat">viciós</span> que jo era.
+
+El que <span class="destacat">l'avi</span> <span class="destacat">volia</span> de <span class="destacat">mi</span> era molt <span class="destacat">clar</span> <span class="destacat">d'entendre</span>: <span class="destacat">ell</span> em <span class="destacat">trobaria</span> un
+<span class="destacat">marit</span> quan <span class="destacat">fos</span> <span class="destacat">hora</span>. Un <span class="destacat">marit</span> que em <span class="destacat">deixaria</span> <span class="destacat">ben</span> <span class="destacat">guardada</span> a <span class="destacat">casa</span>,
+mentre <span class="destacat">ell</span> <span class="destacat">compliria</span> el <span class="destacat">ritual</span> <span class="destacat">mantingut</span> des de <span class="destacat">segles</span> en el <span class="destacat">clan</span> <span class="destacat">mascle</span>.
+
+Si <span class="destacat">l'amor</span> es <span class="destacat">pot</span> <span class="destacat">reduir</span> a <span class="destacat">termes</span> de <span class="destacat">dependència</span>, puc <span class="destacat">dir</span> que <span class="destacat">l'avi</span> <span class="destacat">tenia</span>
+<span class="destacat">dipositades</span> en <span class="destacat">mi</span> <span class="destacat">grans</span> <span class="destacat">esperances</span>. I un <span class="destacat">bon</span> <span class="destacat">dia</span> es van <span class="destacat">veure</span>
+confirmades:
+—T'han <span class="destacat">trobat</span> una <span class="destacat">col·locació</span>.
+
+Era la <span class="destacat">primera</span> <span class="destacat">vegada</span> que jo <span class="destacat">sentia</span> aquesta <span class="destacat">paraula</span>.
+
+—La <span class="destacat">senyora</span> et <span class="destacat">vol</span> <span class="destacat">veure</span>, és <span class="destacat">clar</span>. La <span class="destacat">senyora</span> era la <span class="destacat">vella</span> <span class="destacat">Pujades</span>. Ens
+<span class="destacat">esperava</span> <span class="destacat">l'endemà</span> al <span class="destacat">matí</span>, a les <span class="destacat">dotze</span>.
+
+Jo <span class="destacat">seia</span> a <span class="destacat">l'extrem</span> de la <span class="destacat">butaca</span>, amb els meus <span class="destacat">catorze</span> <span class="destacat">anys</span> encara no
+<span class="destacat">complerts</span>, amb les <span class="destacat">mans</span> <span class="destacat">encreuades</span> sobre la <span class="destacat">falda</span>, mentre la <span class="destacat">senyora</span>
+<span class="destacat">m'explicava</span> que la <span class="destacat">col·locació</span> era molt <span class="destacat">delicada</span>. <span class="destacat">M'esqueia</span>, això <span class="destacat">sí</span>, per
+<span class="destacat">l'edat</span>, per <span class="destacat">l'aspecte</span>, que havia de ser <span class="destacat">agradós</span>, però <span class="destacat">exigia</span> també molta
+<span class="destacat">responsabilitat</span>, i una <span class="destacat">manera</span> de ser <span class="destacat">seriosa</span> i fins i tot <span class="destacat">refinada</span>. Es
+<span class="destacat">tractava</span> en <span class="destacat">resum</span> de fer de <span class="destacat">dependenta</span> en una <span class="destacat">botiga</span> de <span class="destacat">guants</span> que la
+<span class="destacat">fàbrica</span> <span class="destacat">Campins</span> <span class="destacat">obria</span> al <span class="destacat">carrer</span> <span class="destacat">Fernando</span>. <span class="destacat">Hauria</span> <span class="destacat">d'atendre</span>,
+<span class="destacat">naturalment</span>, les <span class="destacat">senyores</span>, però també es <span class="destacat">podia</span> <span class="destacat">donar</span> el <span class="destacat">cas</span> <span class="destacat">d'haver</span> de
+<span class="destacat">servir</span> algun <span class="destacat">senyor</span> i llavors el meu <span class="destacat">capteniment</span> <span class="destacat">esdevindria</span> tant o
+més <span class="destacat">important</span> que el meu <span class="destacat">aspecte</span>.
+
+Quan <span class="destacat">sortíem</span> <span class="destacat">l'avi</span> em va <span class="destacat">dir</span>:
+—<span class="destacat">Trobo</span> que <span class="destacat">t'ho</span> <span class="destacat">prens</span> molt a la <span class="destacat">fresca</span>. No <span class="destacat">estàs</span> <span class="destacat">contenta</span>?
+Molt, <span class="destacat">n'estava</span>, però no <span class="destacat">volia</span> <span class="destacat">dir-ho</span>. <span class="destacat">M'hauria</span> <span class="destacat">posat</span> a <span class="destacat">cridar</span> i a <span class="destacat">córrer</span>
+<span class="destacat">d'alegria</span>, però <span class="destacat">l'avi</span> era allí <span class="destacat">mirant-me</span>.
+
+—Et <span class="destacat">faran</span> un <span class="destacat">vestit</span> <span class="destacat">nou</span>
+—<span class="destacat">Sí</span>.
+
+Jo no estava madura per a aquell <span class="destacat">ofici</span>, era <span class="destacat">massa</span> <span class="destacat">feliç</span> dins el meu <span class="destacat">vestit</span>
+<span class="destacat">color</span> de <span class="destacat">tórtora</span>, encara no havia <span class="destacat">endevinat</span> el poder del <span class="destacat">diner</span>, <span class="destacat">m'havia</span>
+<span class="destacat">enamorat</span> d'un <span class="destacat">xicot</span> <span class="destacat">prim</span>, de <span class="destacat">cabell</span> llarg, la <span class="destacat">corbata</span> <span class="destacat">ampla</span>, <span class="destacat">d'ulls</span>
+<span class="destacat">boniquíssims</span> que em <span class="destacat">sotjava</span> des de <span class="destacat">l'altre</span> <span class="destacat">cantó</span> de <span class="destacat">l'aparador</span> quan, a
+la <span class="destacat">nit</span>, jo <span class="destacat">desava</span> les <span class="destacat">mans</span> de <span class="destacat">llautó</span> <span class="destacat">enguantades</span> i <span class="destacat">corria</span> les <span class="destacat">cortines</span> de
+<span class="destacat">seda</span>. <span class="destacat">Somreia</span> i em <span class="destacat">feia</span> <span class="destacat">ganyotes</span> i jo <span class="destacat">l'esperava</span> cada <span class="destacat">nit</span> amb <span class="destacat">alegria</span>. Jo
+
+no havia <span class="destacat">fet</span> encara els <span class="destacat">catorze</span> <span class="destacat">anys</span>, <span class="destacat">ell</span> <span class="destacat">n'havia</span> <span class="destacat">complert</span> <span class="destacat">setze</span>.
+
+<span class="destacat">Descobríem</span> aquell mal que ens <span class="destacat">feia</span> <span class="destacat">separar-nos</span>, però fins això era una
+<span class="destacat">festa</span> i <span class="destacat">rèiem</span>. <span class="destacat">Ell</span> <span class="destacat">tornava</span> <span class="destacat">enrere</span> i <span class="destacat">m'abraçava</span> <span class="destacat">fort</span> i em <span class="destacat">petonejava</span>, allí
+al <span class="destacat">mig</span> del <span class="destacat">carrer</span>. Era la <span class="destacat">primera</span> <span class="destacat">vegada</span> que jo <span class="destacat">tenia</span> <span class="destacat">algú</span> a <span class="destacat">prop</span> meu
+que ni em <span class="destacat">contemplava</span> ni <span class="destacat">m'exigia</span> <span class="destacat">contemplació</span>. Quan per fi ens vam
+<span class="destacat">trobar</span> <span class="destacat">junts</span> no va ser dins un <span class="destacat">llit</span>. Entre <span class="destacat">caixes</span> que <span class="destacat">feien</span> <span class="destacat">olor</span> de <span class="destacat">pi</span> i
+sobre un <span class="destacat">munt</span> <span class="destacat">d'encenalls</span>, vam <span class="destacat">unir-nos</span> de <span class="destacat">pressa</span> com si no
+<span class="destacat">desitgéssim</span> altra <span class="destacat">cosa</span> que <span class="destacat">trobar-nos</span> <span class="destacat">abraçats</span> a <span class="destacat">l'altre</span> <span class="destacat">cantó</span> del
+<span class="destacat">precipitat</span> <span class="destacat">plaer</span>. Vam <span class="destacat">tornar</span> al <span class="destacat">magatzem</span> de <span class="destacat">vidre</span> <span class="destacat">quatre</span> <span class="destacat">vegades</span> més,
+les <span class="destacat">recordo</span> una per una. Va ser <span class="destacat">breu</span> el nostre <span class="destacat">amor</span>. <span class="destacat">S'iniciava</span> una
+<span class="destacat">mica</span> abans de <span class="destacat">Nadal</span> i <span class="destacat">l'últim</span> <span class="destacat">dia</span> que el vaig <span class="destacat">veure</span> va ser el 20 de
+<span class="destacat">febrer</span>. Vaig saber la seva <span class="destacat">mort</span> molt <span class="destacat">temps</span> més <span class="destacat">tard</span>. Vaig <span class="destacat">trobar</span> el seu
+<span class="destacat">nom</span>: <span class="destacat">Feliu</span> <span class="destacat">Tobias</span>, en una <span class="destacat">llista</span> que va <span class="destacat">publicar</span> el <span class="destacat">diari</span>. El van <span class="destacat">afusellar</span>
+el 30 de maig.
+
+5. (Som al 1913)
+Tot era <span class="destacat">perillós</span> en aquells <span class="destacat">moments</span>: els <span class="destacat">portals</span>, les <span class="destacat">cantonades</span>, els
+<span class="destacat">teatres</span>, els <span class="destacat">urinaris</span>, a <span class="destacat">qualsevol</span> <span class="destacat">lloc</span> <span class="destacat">podia</span> <span class="destacat">explotar</span> una <span class="destacat">bomba</span> o <span class="destacat">xiular</span>
+una <span class="destacat">bala</span> <span class="destacat">destinada</span> als <span class="destacat">homes</span> <span class="destacat">d'en</span> <span class="destacat">Vinagret</span> o als de «<span class="destacat">Las</span> <span class="destacat">Tres</span> <span class="destacat">Clases</span> de
+<span class="destacat">Vapor</span>».
+
+Les <span class="destacat">visites</span> de <span class="destacat">Salvador</span> <span class="destacat">Milà</span> a <span class="destacat">casa</span> <span class="destacat">l'amo</span> eren ja un costum. <span class="destacat">Sempre</span> hi
+havia aquella <span class="destacat">frase</span> que li <span class="destacat">deia</span> <span class="destacat">exactament</span> el que li <span class="destacat">calia</span> saber.
+
+La inquieta <span class="destacat">mirada</span> de <span class="destacat">Salvador</span> <span class="destacat">Milà</span> sobre <span class="destacat">Carola</span> era més insistent.
+
+Estava <span class="destacat">decidit</span> a <span class="destacat">fer-li</span> <span class="destacat">por</span>. Va <span class="destacat">posar</span> un dels seus <span class="destacat">homes</span> a <span class="destacat">vigilar</span> les
+<span class="destacat">anades</span> i <span class="destacat">vingudes</span> de <span class="destacat">Carola</span> per tenir una <span class="destacat">relació</span> <span class="destacat">detallada</span> de tot el que
+<span class="destacat">feia</span> d'un <span class="destacat">cap</span> de <span class="destacat">dia</span> a <span class="destacat">l'altre</span>.
+
+—<span class="destacat">Tens</span> <span class="destacat">mans</span> de <span class="destacat">senyora</span> —<span class="destacat">m'havia</span> <span class="destacat">dit</span> en <span class="destacat">Feliu</span> <span class="destacat">Tobias</span>. <span class="destacat">Ell</span> <span class="destacat">tenia</span> les
+<span class="destacat">mans</span> <span class="destacat">boniques</span>, de <span class="destacat">dits</span> <span class="destacat">llargs</span>, però <span class="destacat">tacades</span> i <span class="destacat">rasposes</span>. <span class="destacat">Treballava</span> a la
+
+<span class="destacat">vidrieria</span> del <span class="destacat">carrer</span> de <span class="destacat">Còdols</span> des dels <span class="destacat">nou</span> <span class="destacat">anys</span> i <span class="destacat">coneixia</span> bé <span class="destacat">l'ofici</span>.
+
+<span class="destacat">Sabia</span> des de molt <span class="destacat">petit</span> que els seus <span class="destacat">havien</span> <span class="destacat">emprès</span> una <span class="destacat">batalla</span> <span class="destacat">dura</span>, i
+havia <span class="destacat">heretat</span> <span class="destacat">profundes</span> <span class="destacat">idees</span> <span class="destacat">poètiques</span> sobre el <span class="destacat">dret</span> que <span class="destacat">tenen</span> els
+<span class="destacat">homes</span> a ser <span class="destacat">feliços</span>.
+
+<span class="destacat">M'explicava</span> per què tot allò que <span class="destacat">semblava</span> <span class="destacat">immutable</span>: el poder del
+<span class="destacat">diner</span>, la <span class="destacat">immunitat</span> dels <span class="destacat">poderosos</span>, la <span class="destacat">misèria</span> de la <span class="destacat">majoria</span> dels
+<span class="destacat">homes</span>, la <span class="destacat">prostitució</span> que <span class="destacat">omplia</span> les <span class="destacat">tavernes</span> del <span class="destacat">carrer</span> <span class="destacat">Marlet</span>, la
+<span class="destacat">ignorància</span> que <span class="destacat">feia</span> els <span class="destacat">homes</span> <span class="destacat">submisos</span>, <span class="destacat">l'encens</span> i les <span class="destacat">oracions</span> que
+<span class="destacat">recolzaven</span> el <span class="destacat">domini</span> de les <span class="destacat">sotanes</span>, tot <span class="destacat">seria</span> <span class="destacat">destruït</span>, i sobre aquelles
+<span class="destacat">runes</span> <span class="destacat">construirien</span> un <span class="destacat">món</span> <span class="destacat">nou</span>, perquè <span class="destacat">l'esperit</span> de <span class="destacat">l'home</span> <span class="destacat">sorgiria</span> de
+les seves <span class="destacat">mans</span>, dels seus <span class="destacat">ulls</span>, de la seva <span class="destacat">força</span>, de la <span class="destacat">respiració</span>
+<span class="destacat">profunda</span> que <span class="destacat">donava</span> <span class="destacat">vida</span> a la seva <span class="destacat">sang</span>. <span class="destacat">Feliu</span> em <span class="destacat">portava</span> <span class="destacat">llibres</span> per
+<span class="destacat">llegir</span>, de <span class="destacat">vegades</span> <span class="destacat">fulls</span> <span class="destacat">impresos</span> que <span class="destacat">explicaven</span> <span class="destacat">coses</span> de <span class="destacat">França</span> i
+<span class="destacat">d'Itàlia</span>, i el <span class="destacat">món</span> es <span class="destacat">feia</span> <span class="destacat">ample</span>. <span class="destacat">L'estimava</span>, <span class="destacat">sempre</span>, cada <span class="destacat">dia</span> una <span class="destacat">mica</span>
+més.
+
+—No ens casarem. <span class="destacat">Vull</span> <span class="destacat">dir</span> que no ens <span class="destacat">deixarem</span> <span class="destacat">beneir</span> ni pel <span class="destacat">capellà</span> ni
+pel <span class="destacat">jutge</span>. Havíem <span class="destacat">fet</span> <span class="destacat">projectes</span>.
+
+No el <span class="destacat">deixava</span> <span class="destacat">passar</span> <span class="destacat">mai</span> de la <span class="destacat">cantonada</span>. <span class="destacat">Sabia</span> que mentre <span class="destacat">l'avi</span> no el
+<span class="destacat">conegués</span>, mentre <span class="destacat">ignorés</span> que <span class="destacat">existia</span> encara podíem ser <span class="destacat">feliços</span>.
+
+<span class="destacat">Salvador</span> <span class="destacat">Milà</span> i el seu <span class="destacat">home</span> ja el coneixien, <span class="destacat">l'havien</span> <span class="destacat">vist</span> <span class="destacat">baixar</span> pel <span class="destacat">carrer</span>
+de <span class="destacat">Fernando</span>, <span class="destacat">desemparadament</span> <span class="destacat">jove</span>, sota la <span class="destacat">pluja</span> <span class="destacat">d'hivern</span>. I <span class="destacat">havien</span> <span class="destacat">vist</span>
+com <span class="destacat">ella</span> <span class="destacat">arribava</span>, <span class="destacat">corrent</span>, i com <span class="destacat">s'aturaven</span>, <span class="destacat">l'un</span> <span class="destacat">enfront</span> de <span class="destacat">l'altre</span>,
+<span class="destacat">indecisos</span> de tan <span class="destacat">enamorats</span>.
+
+—Si <span class="destacat">vol</span> això s'acaba avui mateix—havia <span class="destacat">dit</span> <span class="destacat">l'home</span> de <span class="destacat">confiança</span>.
+
+—Ja t'avisaré.
+
+<span class="destacat">L'home</span> havia <span class="destacat">seguit</span> les <span class="destacat">indicacions</span> de <span class="destacat">l'avi</span> i <span class="destacat">aviat</span> <span class="destacat">sabien</span> que era el <span class="destacat">Feliu</span>
+<span class="destacat">Tobias</span> i on es <span class="destacat">reunia</span> amb la seva <span class="destacat">colla</span> i on <span class="destacat">tenien</span> la <span class="destacat">impremta</span>.
+
+Aquell <span class="destacat">vespre</span> en <span class="destacat">Feliu</span> havia <span class="destacat">embrollat</span> a <span class="destacat">consciència</span> el <span class="destacat">camí</span>. <span class="destacat">Tenia</span> la
+<span class="destacat">clau</span> de les <span class="destacat">golfes</span> i havia de <span class="destacat">portar-hi</span> un <span class="destacat">paquet</span> de <span class="destacat">paper</span>. I no podíem
+<span class="destacat">córrer</span> el <span class="destacat">risc</span> que ens <span class="destacat">seguissin</span>.
+
+—Qui ens ha de <span class="destacat">seguir</span>?
+—La ronda del <span class="destacat">Vinagret</span> o els del Sindicat Lliure.
+
+Vam <span class="destacat">arribar</span> a dalt a les <span class="destacat">golfes</span> amb el <span class="destacat">cor</span> <span class="destacat">bategant</span>. El <span class="destacat">desig</span> <span class="destacat">urgent</span> va
+fer <span class="destacat">sobreres</span> totes les <span class="destacat">paraules</span>. Cada <span class="destacat">gest</span> va <span class="destacat">fer-se</span> <span class="destacat">possible</span> sense
+<span class="destacat">dubtes</span>. Ens vam estimar. Quan vaig <span class="destacat">arribar</span> a <span class="destacat">casa</span> a la <span class="destacat">matinada</span> vaig
+<span class="destacat">trobar</span> <span class="destacat">l'avi</span> que <span class="destacat">m'esperava</span>. <span class="destacat">Sabia</span> com <span class="destacat">rebre</span> els <span class="destacat">cops</span> de <span class="destacat">l'avi</span>.
+
+<span class="destacat">Salvador</span> <span class="destacat">Milà</span> es va <span class="destacat">quedar</span> a <span class="destacat">casa</span> <span class="destacat">l'endemà</span>. Va enviar la <span class="destacat">Paula</span> a <span class="destacat">buscar</span>
+en <span class="destacat">Cinto</span>.
+
+—Has <span class="destacat">d'alçar</span> el <span class="destacat">vol</span>—va <span class="destacat">dir-li</span>
+—On?
+—Al <span class="destacat">carrer</span> de <span class="destacat">Còdols</span> <span class="destacat">número</span> <span class="destacat">cinc</span>.
+
+—No hi tinc <span class="destacat">mà</span>, jo.
+
+—<span class="destacat">M'és</span> igual. <span class="destacat">Busca</span> qui n'hi <span class="destacat">tingui</span>.
+
+No va ser <span class="destacat">fàcil</span> <span class="destacat">ficar-se</span> en el <span class="destacat">grup</span> de <span class="destacat">Feliu</span> <span class="destacat">Tobias</span>.
+
+Amb molt <span class="destacat">bon</span> <span class="destacat">nas</span> en <span class="destacat">Cinto</span> no va <span class="destacat">deixar</span> de <span class="destacat">petja</span> a qui <span class="destacat">deien</span> el <span class="destacat">tipògraf</span>.
+
+I el <span class="destacat">tipògraf</span> el va <span class="destacat">conduir</span> sense <span class="destacat">saber-ho</span> fins al <span class="destacat">Centre</span> <span class="destacat">Obrer</span> del <span class="destacat">carrer</span>
+
+de la <span class="destacat">Creu</span>. Hi havia <span class="destacat">reunions</span> cada <span class="destacat">dissabte</span> a la <span class="destacat">nit</span>, s'hi <span class="destacat">pronunciaven</span>
+<span class="destacat">conferències</span> sobre <span class="destacat">temes</span> <span class="destacat">socials</span>.
+
+A <span class="destacat">principis</span> de <span class="destacat">febrer</span> <span class="destacat">Salvador</span> <span class="destacat">Milà</span> <span class="destacat">tenia</span> tots els <span class="destacat">trumfos</span> a les <span class="destacat">mans</span>,
+però <span class="destacat">esperava</span> <span class="destacat">pacient</span> un <span class="destacat">fet</span> que <span class="destacat">valgués</span> el <span class="destacat">cop</span>. I va <span class="destacat">produir-se</span>.
+
+El <span class="destacat">dia</span> <span class="destacat">23</span> de <span class="destacat">febrer</span> la <span class="destacat">bomba</span> va <span class="destacat">explotar</span>, a la <span class="destacat">Rambla</span> de les <span class="destacat">Flors</span>.
+
+Com un <span class="destacat">castell</span> de <span class="destacat">cartes</span> que <span class="destacat">s'enruna</span>, així <span class="destacat">l'esclat</span> de la <span class="destacat">bomba</span> va anar
+<span class="destacat">produint</span> les <span class="destacat">detencions</span>, les <span class="destacat">tortures</span> i la <span class="destacat">mort</span>.
+
+Van <span class="destacat">detenir</span> en <span class="destacat">Feliu</span> <span class="destacat">Tobias</span> quan <span class="destacat">ficava</span> la <span class="destacat">impremta</span> dins una <span class="destacat">maleta</span>.
+
+Els altres van ser <span class="destacat">detinguts</span> a la <span class="destacat">sortida</span> de la <span class="destacat">feina</span>, al <span class="destacat">despatx</span> de <span class="destacat">l'amo</span>,
+a la <span class="destacat">taverna</span> on <span class="destacat">sopaven</span>. Al <span class="destacat">carrer</span> de la <span class="destacat">Creu</span> la <span class="destacat">policia</span> es va <span class="destacat">posar</span>
+<span class="destacat">davant</span> la <span class="destacat">porta</span> del <span class="destacat">Centre</span> i va anar <span class="destacat">detenint</span> un <span class="destacat">darrere</span> <span class="destacat">l'altre</span> tots els
+que en <span class="destacat">sortien</span>.
+
+Un, però, és va <span class="destacat">escapar</span>. Havia <span class="destacat">tingut</span> <span class="destacat">temps</span> de <span class="destacat">reconèixer</span> al <span class="destacat">Cinto</span>. <span class="destacat">Feia</span>
+<span class="destacat">temps</span> que sospitaven que en <span class="destacat">Cinto</span> era del Sindicat Lliure. <span class="destacat">Salvador</span>
+<span class="destacat">Milà</span> <span class="destacat">rebia</span> també <span class="destacat">reflexos</span> <span class="destacat">d'aquell</span> <span class="destacat">odi</span>, li <span class="destacat">deien</span> el <span class="destacat">gos</span> de <span class="destacat">l'amo</span>.
+
+Els <span class="destacat">treballadors</span> de la <span class="destacat">fàbrica</span> <span class="destacat">havien</span> <span class="destacat">ordenat</span> un <span class="destacat">pla</span>. <span class="destacat">Tres</span> d'ells
+esperarien que el <span class="destacat">torn</span> de <span class="destacat">nit</span> ja <span class="destacat">fos</span> a dins. <span class="destacat">Trucarien</span> <span class="destacat">simplement</span> a la
+<span class="destacat">porta</span> i <span class="destacat">dispararien</span>.
+
+<span class="destacat">Salvador</span> <span class="destacat">Milà</span> va tenir <span class="destacat">temps</span> <span class="destacat">d'<span class="destacat">alçar</span>-se</span> i <span class="destacat">disparar</span>. Els <span class="destacat">tres</span> nois van
+<span class="destacat">disparar</span> a l'<span class="destacat">hora</span> llavors. La <span class="destacat">primera</span> a <span class="destacat">caure</span> va ser la <span class="destacat">Paula</span>, que va
+<span class="destacat">quedar</span> <span class="destacat">estesa</span> <span class="destacat">bocaterrosa</span> sobre els <span class="destacat">graons</span> de <span class="destacat">l'entrada</span>. Els <span class="destacat">tres</span>
+<span class="destacat">treballadors</span> van <span class="destacat">caminar</span> <span class="destacat">cap</span> a la <span class="destacat">reixa</span> <span class="destacat">oberta</span>, mentre <span class="destacat">Salvador</span> <span class="destacat">Milà</span>,
+<span class="destacat">bo</span> i <span class="destacat">ferit</span>, els <span class="destacat">seguia</span> i <span class="destacat">intentava</span> <span class="destacat">carregar</span> de <span class="destacat">nou</span> la <span class="destacat">pistola</span>. Ja eren al
+
+<span class="destacat">carrer</span> quan els <span class="destacat">tres</span> <span class="destacat">homes</span> van poder <span class="destacat">disparar</span> de <span class="destacat">nou</span>. I van <span class="destacat">arrencar</span> a
+<span class="destacat">córrer</span> per la <span class="destacat">vorera</span> <span class="destacat">fangosa</span>.
+
+<span class="destacat">Davant</span> la <span class="destacat">reixa</span> <span class="destacat">oberta</span>, <span class="destacat">Salvador</span> <span class="destacat">Milà</span>, es <span class="destacat">dessagnava</span>.
+
+Fins al <span class="destacat">torn</span> de <span class="destacat">matinada</span> els <span class="destacat">cadàvers</span> <span class="destacat">seguiren</span> allí sota la <span class="destacat">pluja</span>.
+
+Jo havia <span class="destacat">arribat</span> amb la <span class="destacat">por</span> <span class="destacat">arrapada</span> al <span class="destacat">cos</span>. El <span class="destacat">diari</span> <span class="destacat">portava</span> les <span class="destacat">llargues</span>
+<span class="destacat">llistes</span> de <span class="destacat">noms</span> però no em va ser <span class="destacat">difícil</span> <span class="destacat">trobar</span> el <span class="destacat">d'en</span> <span class="destacat">Feliu</span>. <span class="destacat">Seia</span> amb
+el <span class="destacat">diari</span> a la <span class="destacat">falda</span> i <span class="destacat">pensava</span>. <span class="destacat">Volia</span> <span class="destacat">pensar</span> <span class="destacat">intensament</span>, perquè <span class="destacat">volia</span>
+saber què <span class="destacat">faria</span> <span class="destacat">ara</span>, a qui <span class="destacat">dirigiria</span> la <span class="destacat">paraula</span>, a qui <span class="destacat">podria</span> <span class="destacat">parlar</span> <span class="destacat">d'en</span>
+<span class="destacat">Feliu</span> i a qui <span class="destacat">explicaria</span> que <span class="destacat">esperava</span> <span class="destacat">naixement</span>.
+
+Empesa per la <span class="destacat">gent</span> em vaig <span class="destacat">trobar</span> a <span class="destacat">primera</span> <span class="destacat">fila</span> <span class="destacat">davant</span> el <span class="destacat">cadàver</span> de
+<span class="destacat">l'avi</span>. I vaig <span class="destacat">arrencar</span> <span class="destacat">córrer</span>. <span class="destacat">Tremolava</span> de <span class="destacat">fred</span>, les <span class="destacat">cames</span> em <span class="destacat">pesaven</span>,
+però <span class="destacat">corria</span>. Vaig <span class="destacat">creuar</span> <span class="destacat">carrers</span> que ja no <span class="destacat">coneixia</span>. <span class="destacat">Jardins</span> <span class="destacat">adornats</span>
+amb <span class="destacat">majòlica</span> <span class="destacat">blava</span> i amb <span class="destacat">mimoses</span>. Vaig <span class="destacat">passar</span> la <span class="destacat">nit</span> en un portal
+<span class="destacat">morta</span> de <span class="destacat">fred</span> i de <span class="destacat">por</span>. <span class="destacat">L'endemà</span> vaig <span class="destacat">començar</span> a <span class="destacat">caminar</span> de <span class="destacat">nou</span>. Vaig
+<span class="destacat">arribar</span> a una <span class="destacat">placeta</span> <span class="destacat">rodona</span> que <span class="destacat">tenia</span> una <span class="destacat">font</span>. Em vaig <span class="destacat">quedar</span> <span class="destacat">davant</span>
+la <span class="destacat">font</span>, <span class="destacat">absorta</span>, <span class="destacat">tractant</span> <span class="destacat">d'endevinar</span> que <span class="destacat">passava</span> dins meu, perquè la
+<span class="destacat">sang</span> <span class="destacat">fluïa</span> de <span class="destacat">nou</span> com una <span class="destacat">estranya</span> <span class="destacat">benedicció</span>. Les <span class="destacat">llàgrimes</span> em
+<span class="destacat">queien</span> <span class="destacat">galtes</span> <span class="destacat">avall</span> i <span class="destacat">reia</span> de <span class="destacat">felicitat</span>. Em vaig <span class="destacat">encongir</span> i vaig <span class="destacat">encreuar</span>
+les <span class="destacat">mans</span> sobre la <span class="destacat">panxa</span> perquè havia <span class="destacat">sentit</span> una <span class="destacat">fiblada</span> <span class="destacat">aguda</span>. Vaig
+<span class="destacat">seure</span> una <span class="destacat">estona</span> <span class="destacat">mirant</span> com el <span class="destacat">sol</span> ho <span class="destacat">enlluentia</span> tot. No tornaré <span class="destacat">mai</span>
+més a <span class="destacat">Can</span> <span class="destacat">Pujades</span>. Es <span class="destacat">feia</span> <span class="destacat">fosc</span>. Vaig enfilar el <span class="destacat">carrer</span> <span class="destacat">Ample</span>, <span class="destacat">travessà</span> el
+<span class="destacat">carrer</span> <span class="destacat">Fernando</span>, emprendre el <span class="destacat">carrer</span> de <span class="destacat">Banys</span> <span class="destacat">Nous</span> i la <span class="destacat">baixada</span> de
+<span class="destacat">Santa</span> <span class="destacat">Eulàlia</span>. <span class="destacat">Posava</span> de tant en tant la ma a la <span class="destacat">paret</span> per no <span class="destacat">caure</span>. La
+<span class="destacat">plaça</span> de <span class="destacat">Sant</span> <span class="destacat">Felip</span> <span class="destacat">Neri</span> <span class="destacat">tenia</span> un <span class="destacat">fanal</span> <span class="destacat">grogós</span> i un <span class="destacat">banc</span> de <span class="destacat">fusta</span>. Em
+vaig <span class="destacat">deixar</span> anar. Potser em vaig <span class="destacat">desmaiar</span>, potser <span class="destacat">simplement</span> em vaig
+<span class="destacat">quedar</span> <span class="destacat">adormida</span>.
+
+Era de <span class="destacat">dia</span> i <span class="destacat">se</span> <span class="destacat">sentia</span> el <span class="destacat">repicament</span> d'una <span class="destacat">campaneta</span> a <span class="destacat">l'interior</span> de
+<span class="destacat">l'església</span>. Una <span class="destacat">força</span> m'obligava a <span class="destacat">alçar</span>-me, unes <span class="destacat">mans</span> m'apartaven els
+<span class="destacat">cabells</span> de la <span class="destacat">cara</span> i una <span class="destacat">senyora</span> que <span class="destacat">portava</span> un <span class="destacat">barret</span> <span class="destacat">gran</span>, <span class="destacat">lligat</span> amb
+un <span class="destacat">vel</span> sota el <span class="destacat">mentó</span>, amb una veu molt <span class="destacat">aguda</span> i <span class="destacat">feble</span>, em <span class="destacat">deia</span>:
+—<span class="destacat">Criatura</span> <span class="destacat">estàs</span> <span class="destacat">morta</span> de <span class="destacat">fred</span>!
+La <span class="destacat">senyora</span> i el <span class="destacat">xofer</span> em van <span class="destacat">ficar</span> dins un <span class="destacat">cotxe</span>. Vaig ajuntar be les
+<span class="destacat">cames</span> perquè <span class="destacat">sentia</span> que la <span class="destacat">sang</span> em <span class="destacat">mullava</span> les <span class="destacat">cuixes</span>. Em van <span class="destacat">pujar</span> a
+la <span class="destacat">casa</span> a <span class="destacat">pes</span> de <span class="destacat">braços</span>.
+
+—Anita, <span class="destacat">prepara-li</span> un <span class="destacat">bany</span> <span class="destacat">ben</span> <span class="destacat">calent</span>.
+
+Els <span class="destacat">llençols</span> eren d'una <span class="destacat">fredor</span> <span class="destacat">dolça</span>. Vaig <span class="destacat">pensar</span> <span class="destacat">repetidament</span>, com si
+<span class="destacat">resés</span>: "Sóc, <span class="destacat">viva</span>! Sóc <span class="destacat">viva</span>! Sóc <span class="destacat">viva</span>!" I em vaig <span class="destacat">adormir</span>.
+
+6-7.
+
+La <span class="destacat">senyora</span> <span class="destacat">Reinal</span> <span class="destacat">seia</span> al <span class="destacat">costat</span> del <span class="destacat">llit</span> i tota <span class="destacat">inclinada</span> em <span class="destacat">parlava</span> sense
+<span class="destacat">alçar</span> la veu:
+—No <span class="destacat">hauríem</span> <span class="destacat">d'avisar</span> <span class="destacat">algú</span> de <span class="destacat">casa</span> teva?
+—No tinc <span class="destacat">ningú</span>.
+
+Vaig <span class="destacat">construir</span> la <span class="destacat">història</span> amb <span class="destacat">facilitat</span> i <span class="destacat">coherència</span>. Vaig descriure una
+<span class="destacat">barraca</span> al <span class="destacat">barri</span> de <span class="destacat">Pekín</span>, on <span class="destacat">vivia</span> amb <span class="destacat">l'avi</span>, un <span class="destacat">avi</span> <span class="destacat">diferent</span> del meu, un
+<span class="destacat">home</span> <span class="destacat">vell</span> i <span class="destacat">alegre</span>. Les <span class="destacat">inundacions</span> de <span class="destacat">l'any</span> <span class="destacat">passat</span> <span class="destacat">s'havien</span> <span class="destacat">endut</span> la
+meva <span class="destacat">casa</span> i <span class="destacat">l'avi</span> havia <span class="destacat">mort</span>.
+
+—No <span class="destacat">vull</span> que pateixis. <span class="destacat">Reposa</span>, <span class="destacat">posa't</span> <span class="destacat">bona</span> i després <span class="destacat">trobarem</span> <span class="destacat">solució</span>
+per a tot.
+
+Em vaig <span class="destacat">posar</span> <span class="destacat">bona</span> <span class="destacat">aviat</span>.
+
+Que <span class="destacat">fàcil</span> era <span class="destacat">mentir</span>.
+
+Com <span class="destacat">m'abandonava</span> a les <span class="destacat">mans</span> de la <span class="destacat">senyora</span> <span class="destacat">Reinal</span> que <span class="destacat">modelaven</span>
+una <span class="destacat">dona</span> <span class="destacat">nova</span>.
+
+Per <span class="destacat">primera</span> <span class="destacat">vegada</span> vaig tenir <span class="destacat">llibres</span> que es <span class="destacat">llegien</span> per <span class="destacat">plaer</span>. Ni <span class="destacat">calia</span>
+<span class="destacat">retenir</span> <span class="destacat">paraules</span> a la <span class="destacat">memòria</span>, ni em <span class="destacat">donaven</span> <span class="destacat">normes</span> de <span class="destacat">conducta</span>, ni
+tan sols em <span class="destacat">proposaven</span> <span class="destacat">vides</span> <span class="destacat">exemplars</span>. <span class="destacat">Llegia</span> com qui <span class="destacat">empeny</span> una
+<span class="destacat">porta</span> sense fer <span class="destacat">gens</span> de <span class="destacat">soroll</span>, per <span class="destacat">descobrir</span> <span class="destacat">paratges</span> <span class="destacat">nous</span>, <span class="destacat">luxes</span>
+<span class="destacat">inimaginables</span>.
+
+Des <span class="destacat">d'aquella</span> <span class="destacat">cambra</span> que va ser durant <span class="destacat">sis</span> <span class="destacat">anys</span> la meva vaig anar
+<span class="destacat">descobrint</span> (coneixent) la <span class="destacat">resta</span> de la <span class="destacat">casa</span>.
+
+Una <span class="destacat">tarda</span> del <span class="destacat">mes</span> de <span class="destacat">juny</span> vaig ser <span class="destacat">presentada</span> al <span class="destacat">Comitè</span> de <span class="destacat">Dames</span> de
+la <span class="destacat">Junta</span> de <span class="destacat">protecció</span> i <span class="destacat">promoció</span> del <span class="destacat">Treball</span> i la <span class="destacat">Cultura</span> de la <span class="destacat">Dona</span>.
+
+—Estimades amigues. Els presento la meva secretària. <span class="destacat">Serà</span> per a
+nosaltres d'una <span class="destacat">ajuda</span> <span class="destacat">immensa</span>.
+
+<span class="destacat">L'estiueig</span> dels <span class="destacat">Reinal</span> <span class="destacat">transcorria</span> <span class="destacat">segons</span> una <span class="destacat">recepta</span> <span class="destacat">antiga</span> a la <span class="destacat">vella</span>
+<span class="destacat">casa</span> familiar, una <span class="destacat">casa</span> de poble. Després de la <span class="destacat">migdiada</span> <span class="destacat">escrivíem</span>
+<span class="destacat">cartes</span> i les <span class="destacat">contestàvem</span>. Jo <span class="destacat">copiava</span> amb la meva <span class="destacat">nova</span> <span class="destacat">lletra</span> <span class="destacat">anglesa</span> els
+seus <span class="destacat">esborralls</span>, o <span class="destacat">escrivia</span> al <span class="destacat">dictat</span>. Ja em <span class="destacat">sabia</span> de <span class="destacat">memòria</span> <span class="destacat">frases</span>
+<span class="destacat">senceres</span> que la <span class="destacat">senyora</span> <span class="destacat">Reinal</span> havia de <span class="destacat">repetir</span> a cada <span class="destacat">petició</span>, a cada
+<span class="destacat">exigència</span>, <span class="destacat">car</span> <span class="destacat">l'empresa</span> <span class="destacat">ambiciosa</span> que <span class="destacat">volia</span> <span class="destacat">dur</span> a <span class="destacat">terme</span> <span class="destacat">reclamava</span>
+molt <span class="destacat">diner</span>. —"Tan poca <span class="destacat">cosa</span> a <span class="destacat">canvi</span> del que <span class="destacat">aconseguiríem</span>: la <span class="destacat">pau</span>, el
+<span class="destacat">benestar</span>, la <span class="destacat">justícia</span>." —La <span class="destacat">senyora</span> <span class="destacat">Reinal</span> havia <span class="destacat">cregut</span> en <span class="destacat">l'amor</span> en
+altres <span class="destacat">temps</span>, —"però <span class="destacat">l'amor</span> no <span class="destacat">existia</span>, a <span class="destacat">canvi</span> <span class="destacat">t'oferien</span> la <span class="destacat">submissió</span> i
+el <span class="destacat">fàstic</span>". — Però a <span class="destacat">tu</span> <span class="destacat">t'ensenyaré</span> a <span class="destacat">viure</span> d'una altra <span class="destacat">manera</span>, <span class="destacat">criatura</span>
+<span class="destacat">estimada</span>. <span class="destacat">Tu</span> <span class="destacat">seràs</span> <span class="destacat">exemple</span> per a totes.
+
+A la <span class="destacat">tarda</span>, hi havia <span class="destacat">tertúlia</span> sota els <span class="destacat">porxos</span> del <span class="destacat">jardí</span>, fins que es <span class="destacat">feia</span> <span class="destacat">fosc</span>
+i <span class="destacat">encenien</span> els <span class="destacat">fanals</span> de <span class="destacat">carbur</span> i <span class="destacat">servien</span> <span class="destacat">llimonades</span> i <span class="destacat">vi</span> <span class="destacat">ranci</span>. <span class="destacat">M'és</span>
+<span class="destacat">difícil</span> <span class="destacat">recordar</span> la <span class="destacat">gent</span> que es <span class="destacat">movia</span> a <span class="destacat">l'entorn</span> <span class="destacat">d'aquella</span> <span class="destacat">casa</span>, jo només
+<span class="destacat">veia</span> <span class="destacat">l'Agustí</span> <span class="destacat">Turull</span>, que <span class="destacat">anava</span> d'un <span class="destacat">cantó</span> a <span class="destacat">l'altre</span>, per a <span class="destacat">seure</span>
+<span class="destacat">finalment</span> al meu <span class="destacat">costat</span>. <span class="destacat">Posseïa</span> el <span class="destacat">rostre</span> més <span class="destacat">bell</span> que <span class="destacat">mai</span> he <span class="destacat">pogut</span>
+<span class="destacat">veure</span>, i una <span class="destacat">mirada</span> <span class="destacat">barreja</span> de <span class="destacat">tendresa</span> i <span class="destacat">severitat</span> que em <span class="destacat">tallava</span> la
+<span class="destacat">respiració</span>. El seu <span class="destacat">aplom</span> <span class="destacat">feia</span> <span class="destacat">gravitar</span> la <span class="destacat">conversa</span> en <span class="destacat">ell</span>, <span class="destacat">robant-me</span>'l,
+perquè <span class="destacat">l'escoltaven</span> malgrat els seus <span class="destacat">vint</span> <span class="destacat">anys</span>.
+
+La <span class="destacat">senyora</span> <span class="destacat">Reinal</span> i <span class="destacat">l'elegant</span> <span class="destacat">Turull</span> es <span class="destacat">detestaven</span>, i jo era el <span class="destacat">camp</span> de
+<span class="destacat">batalla</span> <span class="destacat">d'aquella</span> <span class="destacat">ferotge</span> <span class="destacat">antipatia</span>.
+
+—D'on vens?
+—De fer una volta.
+
+—No menteixis. No puc <span class="destacat">suportar</span> les mentides. Has <span class="destacat">sortit</span> per <span class="destacat">trobar-te</span>
+amb <span class="destacat">l'Agustí</span> <span class="destacat">Turull</span>.
+
+<span class="destacat">Reia</span> perquè la <span class="destacat">sospita</span> em <span class="destacat">produïa</span> un <span class="destacat">plaer</span> <span class="destacat">immens</span>.
+
+—<span class="destacat">L'Agustí</span> <span class="destacat">Turull</span> <span class="destacat">t'interessa</span>, jo ho he <span class="destacat">vist</span>.
+
+—És tan <span class="destacat">intel·ligent</span>...tan...
+
+—Tan poc recomanable!
+Jo <span class="destacat">l'estimava</span>. <span class="destacat">M'hauria</span> <span class="destacat">saciat</span> el <span class="destacat">contacte</span> de la seva <span class="destacat">pell</span> <span class="destacat">blanca</span>, el <span class="destacat">pes</span>
+del seu <span class="destacat">cos</span>, la <span class="destacat">dolça</span> <span class="destacat">humitat</span> <span class="destacat">profunda</span> de <span class="destacat">l'amor</span> que <span class="destacat">endevinava</span>.
+
+—Sense el meu <span class="destacat">consentiment</span> <span class="destacat">l'Agustí</span> no es <span class="destacat">casarà</span> amb <span class="destacat">tu</span>, <span class="destacat">nineta</span>. Ets
+<span class="destacat">intel·ligent</span> i <span class="destacat">obraràs</span> amb <span class="destacat">sensatesa</span>. No li <span class="destacat">convé</span> <span class="destacat">enemistar-se</span> amb el
+meu <span class="destacat">home</span>, i <span class="destacat">d'altra</span> <span class="destacat">banda</span> <span class="destacat">tu</span> no ets <span class="destacat">ningú</span> si et <span class="destacat">desentens</span> de nosaltres.
+
+Jo li he <span class="destacat">parlat</span> molt <span class="destacat">clar</span> a <span class="destacat">l'Agustí</span> i em <span class="destacat">sembla</span> que ho ha <span class="destacat">entès</span>. <span class="destacat">Ara</span> em
+creus <span class="destacat">odiosa</span> perquè <span class="destacat">t'estic</span> <span class="destacat">dient</span> la <span class="destacat">veritat</span>, però <span class="destacat">temps</span> a <span class="destacat">venir</span> em <span class="destacat">diràs</span>
+que <span class="destacat">m'ho</span> <span class="destacat">agraeixes</span>.
+
+<span class="destacat">L'Agustí</span> <span class="destacat">Turull</span> no va <span class="destacat">tornar</span> més.
+
+Una <span class="destacat">tarda</span> vaig <span class="destacat">trucar</span> a <span class="destacat">l'habitació</span> de <span class="destacat">l'Anita</span>, la <span class="destacat">cambrera</span> de la <span class="destacat">senyora</span>
+<span class="destacat">Reinal</span>, i em vaig <span class="destacat">deixar</span> anar <span class="destacat">bocaterrosa</span> al seu <span class="destacat">llit</span>, <span class="destacat">plorant</span>. <span class="destacat">L'Anita</span> va
+<span class="destacat">rebre</span> el meu <span class="destacat">desconsol</span> com la <span class="destacat">cosa</span> més <span class="destacat">natural</span> del <span class="destacat">món</span>, i es va <span class="destacat">posar</span>
+a <span class="destacat">parlar-me</span> amb una veu que no li <span class="destacat">coneixia</span>: —Els <span class="destacat">amos</span> són els <span class="destacat">amos</span>, i
+els <span class="destacat">criats</span> <span class="destacat">sempre</span> <span class="destacat">seran</span> <span class="destacat">criats</span>.
+
+8.
+
+"Els <span class="destacat">amos</span> són els <span class="destacat">amos</span>, i els <span class="destacat">criats</span> són els <span class="destacat">criats</span>." Jo havia <span class="destacat">entrat</span> per la
+<span class="destacat">porta</span> <span class="destacat">falsa</span>. <span class="destacat">M'havia</span> <span class="destacat">assegut</span> a <span class="destacat">taula</span> amb els <span class="destacat">amos</span> i havia <span class="destacat">fruït</span> la <span class="destacat">rara</span>
+<span class="destacat">intimitat</span> dels <span class="destacat">bufons</span>. Si <span class="destacat">m'aturava</span> a <span class="destacat">pensar</span>, <span class="destacat">podia</span> <span class="destacat">descobrir</span> que ni la
+<span class="destacat">rancuniosa</span> <span class="destacat">dignitat</span> dels <span class="destacat">criats</span> no em <span class="destacat">quedava</span>. I al <span class="destacat">cap</span> de <span class="destacat">sis</span> <span class="destacat">anys</span>, no
+<span class="destacat">tenia</span> ni un <span class="destacat">cèntim</span> meu.
+
+<span class="destacat">L'Anita</span> em <span class="destacat">parlava</span> des de la seva <span class="destacat">ciència</span> i em <span class="destacat">fressava</span> el <span class="destacat">camí</span> per
+<span class="destacat">anar-me'n</span>. <span class="destacat">Sabia</span> una <span class="destacat">casa</span> on em <span class="destacat">podia</span> col·locar.
+
+—<span class="destacat">Can</span> <span class="destacat">Sala</span> del <span class="destacat">carrer</span> de la <span class="destacat">Boqueria</span>, una <span class="destacat">antiga</span> <span class="destacat">casa</span> de <span class="destacat">robes</span> de
+<span class="destacat">sastreria</span>. <span class="destacat">Minyona</span> per a tot <span class="destacat">servir</span>, una <span class="destacat">mica</span> <span class="destacat">pesat</span> si bé es <span class="destacat">mira</span>, però
+amb molts <span class="destacat">avantatges</span>.
+
+Tots eren bruts, amb una <span class="destacat">brutícia</span> que jo no havia <span class="destacat">conegut</span> <span class="destacat">mai</span>. Una
+<span class="destacat">brutícia</span> <span class="destacat">vella</span> com la <span class="destacat">casa</span> que <span class="destacat">arrodonia</span> els <span class="destacat">angles</span> de les <span class="destacat">parets</span> i dels
+<span class="destacat">mobles</span>. Quan <span class="destacat">m'ajeia</span> al <span class="destacat">catre</span>, en <span class="destacat">l'habitació</span> sense <span class="destacat">finestra</span>, després de
+<span class="destacat">l'esbaldida</span> de la <span class="destacat">cuina</span>, <span class="destacat">sentia</span> que el meu <span class="destacat">cos</span> es <span class="destacat">crispava</span> de <span class="destacat">fatiga</span> i em
+<span class="destacat">costava</span> de <span class="destacat">dormir</span>. Es poca <span class="destacat">cosa</span> <span class="destacat">dir</span> que em <span class="destacat">cansava</span>, em <span class="destacat">moria</span>.
+
+—<span class="destacat">Seràs</span> una <span class="destacat">vella</span> <span class="destacat">d'aquí</span> <span class="destacat">deu</span> <span class="destacat">anys</span>—em <span class="destacat">deia</span> la meva amiga Eugènia—i
+<span class="destacat">tu</span> ets de les que es <span class="destacat">casaran</span> amb un <span class="destacat">desgraciat</span> <span class="destacat">d'aquests</span> i <span class="destacat">continuaràs</span>
+<span class="destacat">frega</span> que <span class="destacat">frega</span> i <span class="destacat">tenint</span> <span class="destacat">fills</span> com una <span class="destacat">conilla</span>. El que abans <span class="destacat">guanyava</span>
+amb un <span class="destacat">mes</span> <span class="destacat">esllomant-me</span> <span class="destacat">ara</span> ho <span class="destacat">guanyo</span> amb <span class="destacat">mitja</span> <span class="destacat">hora</span> i sense
+<span class="destacat">cansar-m'hi</span>. Si no <span class="destacat">t'espaviles</span>!
+La <span class="destacat">prostitució</span> és un <span class="destacat">bon</span> <span class="destacat">ofici</span> si el qui l'exerceix <span class="destacat">té</span> el <span class="destacat">cap</span> sobre les
+<span class="destacat">espatlles</span>, i sap <span class="destacat">usar</span> el <span class="destacat">diner</span>.
+
+Madame Rosita <span class="destacat">feia</span> respecte, tota <span class="destacat">endreçada</span>, amb el <span class="destacat">cabell</span> <span class="destacat">gris</span> <span class="destacat">recollit</span>
+i la <span class="destacat">creu</span> <span class="destacat">penjada</span> i <span class="destacat">recolzada</span> a la <span class="destacat">plataforma</span> del <span class="destacat">pit</span>. Em va <span class="destacat">mirar</span> de dalt
+a baix i no va fer <span class="destacat">cap</span> <span class="destacat">comentari</span>. Només va <span class="destacat">dir</span>: —<span class="destacat">Veurem</span> com et
+<span class="destacat">portes</span>.
+
+Un <span class="destacat">dia</span> em va <span class="destacat">cridar</span> per <span class="destacat">dir-me</span> que <span class="destacat">l'Esteve</span> <span class="destacat">Plans</span> havia <span class="destacat">fet</span> <span class="destacat">tractes</span> i
+<span class="destacat">m'esperava</span> a <span class="destacat">l'hotel</span> <span class="destacat">Granvia</span>. Vaig <span class="destacat">trobar</span> una <span class="destacat">habitació</span> al meu <span class="destacat">nom</span>.
+
+Vaig <span class="destacat">pujar</span> <span class="destacat">sola</span>. <span class="destacat">Ell</span> va <span class="destacat">arribar</span> al <span class="destacat">cap</span> de poca <span class="destacat">estona</span>, va <span class="destacat">entrar</span> i va
+<span class="destacat">tancar</span> el <span class="destacat">llum</span>. <span class="destacat">L'endemà</span> va <span class="destacat">anar-<span class="destacat">se</span>'n</span> abans que jo em <span class="destacat">vestís</span>. <span class="destacat">M'havia</span>
+<span class="destacat">deixat</span> <span class="destacat">diners</span> dins un sobre. Vam <span class="destacat">tornar</span> <span class="destacat">diverses</span> <span class="destacat">vegades</span> a <span class="destacat">l'hotel</span>
+<span class="destacat">Granvia</span>. Un mati, quan ja s'havia <span class="destacat">vestit</span>, es va <span class="destacat">girar</span> de <span class="destacat">sobte</span> i em va <span class="destacat">dir</span>
+que <span class="destacat">volia</span> que un seu <span class="destacat">amic</span> <span class="destacat">metge</span> em <span class="destacat">visités</span>. Jo em vaig <span class="destacat">clavar</span> a <span class="destacat">riure</span>:
+—Tanta <span class="destacat">por</span> <span class="destacat">tens</span>? O és que et <span class="destacat">penses</span> que faig <span class="destacat">cantonades</span>, jo!
+Em va <span class="destacat">pegar</span> un <span class="destacat">cop</span> <span class="destacat">fort</span> amb la <span class="destacat">mà</span> <span class="destacat">girada</span> i jo <span class="destacat">m'hi</span> vaig <span class="destacat">tornar</span> <span class="destacat">furiosa</span>.
+
+Em va <span class="destacat">agafar</span> amb <span class="destacat">rapidesa</span> i amb els <span class="destacat">braços</span> em va <span class="destacat">immobilitzar</span> per un
+<span class="destacat">moment</span>. He de <span class="destacat">dir</span> que era el <span class="destacat">gest</span> més semblant a una <span class="destacat">abraçada</span> que li
+havia <span class="destacat">vist</span> fer.
+
+—Si ets <span class="destacat">bona</span> <span class="destacat">noia</span>, no <span class="destacat">te'n</span> <span class="destacat">penediràs</span>
+
+Després de la <span class="destacat">visita</span> <span class="destacat">mèdica</span> em va <span class="destacat">oferir</span> un <span class="destacat">pis</span> al <span class="destacat">capdamunt</span> del <span class="destacat">carrer</span>
+<span class="destacat">Aribau</span>. Per primer <span class="destacat">cop</span> a la meva <span class="destacat">vida</span> jo <span class="destacat">tenia</span> una <span class="destacat">casa</span>, amb <span class="destacat">dues</span>
+<span class="destacat">persones</span> de <span class="destacat">servei</span>.
+
+He <span class="destacat">tingut</span> <span class="destacat">sempre</span> <span class="destacat">l'estómac</span> <span class="destacat">agraït</span> dels <span class="destacat">gats</span> de <span class="destacat">terrat</span>, un <span class="destacat">agraïment</span>
+<span class="destacat">immediat</span> i <span class="destacat">oblidadís</span>. <span class="destacat">L'Esteve</span> no estava descontent amb <span class="destacat">mi</span>.
+
+Vaig trigar a comprendre que <span class="destacat">tenia</span> els seus <span class="destacat">projectes</span> <span class="destacat">fets</span> i <span class="destacat">ben</span>
+<span class="destacat">meditats</span>
+9.
+
+<span class="destacat">M'havia</span> <span class="destacat">pagat</span> <span class="destacat">l'entrada</span> al <span class="destacat">tennis</span> del <span class="destacat">Futbol</span> <span class="destacat">Club</span> <span class="destacat">Barcelona</span>. Un mati,
+<span class="destacat">se</span>'m va acostar una noieta <span class="destacat">d'aspecte</span> gairebé <span class="destacat">infantil</span>.
+
+—<span class="destacat">Perdoni</span>. Li <span class="destacat">faria</span> <span class="destacat">res</span> fer un <span class="destacat">set</span> amb <span class="destacat">mi</span>? Es veu que <span class="destacat">tothom</span> es <span class="destacat">lleva</span>
+<span class="destacat">tard</span> avui.
+
+Jo <span class="destacat">sabia</span> qui era aquella <span class="destacat">noia</span> <span class="destacat">decidida</span> que havia <span class="destacat">vingut</span> a <span class="destacat">trobar-me</span> per
+<span class="destacat">veure</span>'m de <span class="destacat">prop</span>. I em <span class="destacat">mirava</span> amb <span class="destacat">curiositat</span>. Vam fer el <span class="destacat">set</span>, i va fer
+<span class="destacat">filigranes</span> per <span class="destacat">facilitar-me</span> la <span class="destacat">resposta</span>.
+
+—<span class="destacat">Ve</span> <span class="destacat">sempre</span> a aquesta <span class="destacat">hora</span>? <span class="destacat">M'agradaria</span> <span class="destacat">continuar</span> la <span class="destacat">partida</span> si a
+<span class="destacat">vostè</span> li plau.
+
+I sense <span class="destacat">dir</span> <span class="destacat">res</span> més, va <span class="destacat">girar</span> en <span class="destacat">rodó</span> i es va <span class="destacat">posar</span> a <span class="destacat">córrer</span>, com una
+<span class="destacat">nena</span>.
+
+—Saps qui és? —em va <span class="destacat">preguntar</span> un <span class="destacat">amic</span> de <span class="destacat">l'Esteve</span>
+—No, qui és? —vaig <span class="destacat">mentir</span>.
+
+—La <span class="destacat">promesa</span> de <span class="destacat">l'Esteve</span> <span class="destacat">Plans</span>. No han <span class="destacat">anunciat</span> la <span class="destacat">boda</span> <span class="destacat">oficialment</span>,
+però ja està en <span class="destacat">mans</span> de <span class="destacat">notari</span>.
+
+10.
+
+Potser no he <span class="destacat">sabut</span> <span class="destacat">mai</span> <span class="destacat">ben</span> bé com era <span class="destacat">l'Esteve</span> <span class="destacat">Plans</span>. Però vaig
+<span class="destacat">descobrir</span> que malgrat <span class="destacat">l'enorme</span> <span class="destacat">distància</span> que ens <span class="destacat">separava</span>, les nostres
+<span class="destacat">forces</span> <span class="destacat">s'igualaven</span>: <span class="destacat">ell</span> era <span class="destacat">gelós</span> i jo no <span class="destacat">l'estimava</span> <span class="destacat">gens</span>.
+
+Un <span class="destacat">vespre</span> <span class="destacat">l'Esteve</span> <span class="destacat">volia</span> de totes <span class="destacat">passades</span> anar a <span class="destacat">l'Olímpia</span>, on hi havia
+una <span class="destacat">orquestra</span> de <span class="destacat">negres</span> que <span class="destacat">feia</span> <span class="destacat">furor</span>.
+
+—No puc.
+
+—Com que no <span class="destacat">pots</span>?
+Vaig <span class="destacat">posar-me</span> les <span class="destacat">mans</span> sota la <span class="destacat">panxa</span>, i em vaig <span class="destacat">girar</span> de <span class="destacat">perfil</span>.
+
+Es va <span class="destacat">quedar</span> <span class="destacat">blanc</span>, gairebé sense <span class="destacat">respiració</span>.
+
+—<span class="destacat">M'ho</span> <span class="destacat">temia</span>
+Va <span class="destacat">tancar</span> la <span class="destacat">porta</span> amb <span class="destacat">estrèpit</span> i es va <span class="destacat">estar</span> una <span class="destacat">setmana</span> sense <span class="destacat">venir</span>.
+
+Quan va <span class="destacat">tornar</span> em va <span class="destacat">portar</span> un <span class="destacat">ram</span> de <span class="destacat">flors</span> i un <span class="destacat">braçalet</span> de <span class="destacat">perles</span>
+<span class="destacat">petites</span>, amb la <span class="destacat">tanca</span> més <span class="destacat">preciosa</span> que <span class="destacat">mai</span> havia <span class="destacat">vist</span>. —No et
+preocupis, tot està resolt. Havia <span class="destacat">trobat</span> una <span class="destacat">persona</span> de <span class="destacat">confiança</span> i
+aquella mateixa <span class="destacat">tarda</span> <span class="destacat">l'aniríem</span> a <span class="destacat">veure</span>. Vaig <span class="destacat">córrer</span> a <span class="destacat">desil·lusionar-lo</span>,
+<span class="destacat">anava</span> pel <span class="destacat">quart</span> <span class="destacat">mes</span> i un avortament era <span class="destacat">perillós</span>. A més, li vaig <span class="destacat">dir</span>,
+<span class="destacat">volia</span> un <span class="destacat">fill</span>. Un <span class="destacat">fill</span> <span class="destacat">d'ell</span> <span class="destacat">precisament</span>, <span class="destacat">ara</span> que ens separaríem.—És
+<span class="destacat">l'últim</span> regal que em fas—li vaig <span class="destacat">dir</span> somrient.
+
+<span class="destacat">Ell</span> no <span class="destacat">somreia</span>, em <span class="destacat">mirava</span> <span class="destacat">fixament</span>. <span class="destacat">Semblava</span> <span class="destacat">cec</span> i <span class="destacat">terrible</span>.
+
+—Què et proposes fer?
+
+<span class="destacat">Esperar</span> la <span class="destacat">naixença</span> del meu <span class="destacat">fill</span>. No em <span class="destacat">mouria</span> <span class="destacat">d'aquella</span> <span class="destacat">casa</span>, el
+<span class="destacat">lloguer</span> del <span class="destacat">pis</span> <span class="destacat">anava</span> al meu <span class="destacat">nom</span>, no li havia de <span class="destacat">causar</span> <span class="destacat">cap</span> <span class="destacat">destorb</span>.
+
+—No <span class="destacat">esperis</span> que <span class="destacat">reconeixeré</span> el teu <span class="destacat">fill</span>.
+
+—No ho <span class="destacat">espero</span>.
+
+—No et <span class="destacat">pensis</span> que et podràs <span class="destacat">valdre</span> de <span class="destacat">l'escàndol</span>.
+
+—No ho <span class="destacat">penso</span>.
+
+Va fer molta <span class="destacat">calor</span> aquell estiu. <span class="destacat">L'Esteve</span> va <span class="destacat">venir</span> poques <span class="destacat">vegades</span> i cada
+<span class="destacat">vegada</span> <span class="destacat">se</span> <span class="destacat">n'anava</span> com si no <span class="destacat">hagués</span> de <span class="destacat">tornar</span>. No em va <span class="destacat">donar</span> <span class="destacat">cap</span>
+<span class="destacat">diner</span> durant aquells <span class="destacat">mesos</span>, ni jo n'hi vaig <span class="destacat">reclamar</span>.
+
+<span class="destacat">Cap</span> a mitjans <span class="destacat">d'agost</span> <span class="destacat">l'Esteve</span> va comparèixer. Es va <span class="destacat">asseure</span> una
+<span class="destacat">estona</span> <span class="destacat">davant</span> meu sense <span class="destacat">dir</span> <span class="destacat">res</span>. Després es va <span class="destacat">alçar</span>, es va <span class="destacat">posar</span> a
+<span class="destacat">passejar</span> <span class="destacat">amunt</span> i <span class="destacat">avall</span> del <span class="destacat">pis</span> obrint i tancant <span class="destacat">portes</span>, com qui <span class="destacat">busca</span>
+alguna <span class="destacat">cosa</span>, i quant ja era a la <span class="destacat">porta</span> va <span class="destacat">tornar</span> i em va <span class="destacat">dir</span>:
+—Et fa <span class="destacat">falta</span> alguna <span class="destacat">cosa</span>?
+—No.
+
+La llevadora va <span class="destacat">dir</span> que va ser un <span class="destacat">part</span> <span class="destacat">feliç</span>. <span class="destacat">M'havia</span> <span class="destacat">proposat</span> no <span class="destacat">cridar</span>
+i, de <span class="destacat">sobte</span>, vaig <span class="destacat">sentir</span> uns <span class="destacat">crits</span> <span class="destacat">horribles</span> que <span class="destacat">resulta</span> que els <span class="destacat">feia</span> jo. Es
+<span class="destacat">feia</span> <span class="destacat">clar</span>. El <span class="destacat">cel</span> era de <span class="destacat">color</span> de <span class="destacat">rosa</span>, tan <span class="destacat">bonic</span>. Era el 30 <span class="destacat">d'agost</span>, el <span class="destacat">dia</span>
+de <span class="destacat">santa</span> <span class="destacat">Rosa</span> i vaig <span class="destacat">decidir</span> que es <span class="destacat">diria</span> <span class="destacat">Rosa</span>.
+
+El <span class="destacat">dia</span> 5 de <span class="destacat">desembre</span> <span class="destacat">l'Esteve</span> em va <span class="destacat">regalar</span> un <span class="destacat">anell</span> de <span class="destacat">promesa</span> amb
+una <span class="destacat">data</span> <span class="destacat">gravada</span>: 5 de <span class="destacat">desembre</span> de <span class="destacat">1924</span>.
+
+—Som al 1925. S'han <span class="destacat">equivocat</span>.
+
+—Aquesta <span class="destacat">serà</span> la <span class="destacat">data</span> de la nostra <span class="destacat">boda</span>. Ho has <span class="destacat">entès</span> bé?
+—<span class="destacat">Penses</span> en tot.
+
+<span class="destacat">11</span>.
+
+La meva <span class="destacat">filla</span> creix. En <span class="destacat">tenen</span> <span class="destacat">cura</span>: una <span class="destacat">nurse</span> <span class="destacat">alemanya</span>, una <span class="destacat">institutriu</span>
+<span class="destacat">castellana</span> i una <span class="destacat">cambrera</span> <span class="destacat">andalusa</span>. Li <span class="destacat">diem</span> <span class="destacat">Rossy</span> perquè tota la
+<span class="destacat">família</span> <span class="destacat">considera</span> que <span class="destacat">Rosa</span> és un <span class="destacat">nom</span> molt <span class="destacat">lleig</span>.
+
+La <span class="destacat">dificultat</span> més <span class="destacat">grossa</span> que vaig <span class="destacat">trobar</span> quan vaig <span class="destacat">entrar</span> a <span class="destacat">formar</span> <span class="destacat">part</span>
+de la <span class="destacat">família</span> <span class="destacat">Plans</span> va ser <span class="destacat">aprendre</span>'m qui era cada un dels <span class="destacat">membres</span>. No
+era <span class="destacat">fàcil</span>, no solament perquè eren molts, <span class="destacat">sinó</span> perquè la <span class="destacat">proximitat</span> no
+sols <span class="destacat">depenia</span> del <span class="destacat">vincle</span> <span class="destacat">sanguini</span> <span class="destacat">sinó</span> de la <span class="destacat">participació</span> en les <span class="destacat">diverses</span>
+societats anònimes <span class="destacat">Plans</span>.
+
+Els <span class="destacat">primers</span> <span class="destacat">anys</span> em va <span class="destacat">divertir</span> <span class="destacat">endevinar</span> les <span class="destacat">aliances</span>, les <span class="destacat">reserves</span>, els
+<span class="destacat">petits</span> <span class="destacat">odis</span>, les <span class="destacat">trampes</span>, les <span class="destacat">seduccions</span>. <span class="destacat">L'àvia</span> era de tots ells el
+<span class="destacat">personatge</span> més <span class="destacat">seductor</span>. Era <span class="destacat">despòtica</span> i <span class="destacat">cruel</span> amb <span class="destacat">tothom</span> que <span class="destacat">tenia</span> a
+<span class="destacat">l'abast</span>, i <span class="destacat">falaguera</span> amb els que <span class="destacat">volia</span> <span class="destacat">conquerir</span>.
+
+La meva <span class="destacat">curiositat</span> es va anar <span class="destacat">fonent</span>, sense ni jo <span class="destacat">adonar-me'n</span>.
+
+<span class="destacat">M'avorria</span> sense <span class="destacat">ganes</span> <span class="destacat">d'evitar</span> <span class="destacat">l'avorriment</span>, <span class="destacat">parlava</span> <span class="destacat">castellà</span> sense
+<span class="destacat">adonar-me'n</span>, <span class="destacat">fumava</span> Abdullah's, bevia Picon i <span class="destacat">patia</span> <span class="destacat">d'insomni</span> com
+totes les <span class="destacat">dones</span> de la <span class="destacat">casa</span>, <span class="destacat">inclosa</span> <span class="destacat">l'àvia</span>.
+
+De tant en tant, <span class="destacat">sordament</span> <span class="destacat">arribava</span> fins a <span class="destacat">mi</span> el <span class="destacat">reflex</span> <span class="destacat">d'alguna</span> <span class="destacat">cosa</span>
+que <span class="destacat">passava</span> pel <span class="destacat">carrer</span>: una <span class="destacat">vaga</span>, un <span class="destacat">espetec</span> de <span class="destacat">pistoles</span>. Un <span class="destacat">bon</span> <span class="destacat">dia</span> hi
+va haver una <span class="destacat">escampada</span> <span class="destacat">general</span> de la <span class="destacat">família</span>. <span class="destacat">L'Esteve</span> <span class="destacat">se'n</span> va anar a
+<span class="destacat">Ginebra</span>.
+
+Del <span class="destacat">Passeig</span> de <span class="destacat">Gràcia</span> <span class="destacat">arribava</span> la <span class="destacat">remor</span> d'un <span class="destacat">crit</span> <span class="destacat">ritmat</span> que la <span class="destacat">gentada</span>
+que <span class="destacat">fluïa</span> <span class="destacat">avall</span> com una <span class="destacat">rierada</span> <span class="destacat">anava</span> <span class="destacat">salmodiant</span>: "<span class="destacat">Visca</span> <span class="destacat">Macià</span>. <span class="destacat">Mori</span>
+<span class="destacat">Cambó</span>". <span class="destacat">Havien</span> <span class="destacat">proclamat</span> la <span class="destacat">República</span>.
+
+<span class="destacat">L'àvia</span> no havia <span class="destacat">volgut</span> <span class="destacat">anar-<span class="destacat">se</span>'n</span>. Es va <span class="destacat">quedar</span> <span class="destacat">feliç</span> amb aquella <span class="destacat">actitud</span>
+que li <span class="destacat">semblava</span> <span class="destacat">heroica</span>. Però <span class="destacat">tenia</span> una <span class="destacat">por</span> <span class="destacat">agressiva</span> i <span class="destacat">cruel</span>, i jo, a
+<span class="destacat">través</span> <span class="destacat">d'aquella</span> <span class="destacat">por</span> de <span class="destacat">l'àvia</span>, <span class="destacat">entenia</span> una <span class="destacat">mica</span> <span class="destacat">l'escampada</span> familiar.
+
+A poc a poc van anar tornant tots.
+
+12.
+
+El <span class="destacat">juliol</span> del 1936 ja érem a Puigcerdà d'<span class="destacat">estiueig</span> amb <span class="destacat">l'àvia</span> i la <span class="destacat">Rossy</span>
+quan <span class="destacat">l'Esteve</span> <span class="destacat">m'havia</span> <span class="destacat">enviat</span> a <span class="destacat">buscar</span>. Vaig <span class="destacat">arribar</span> a <span class="destacat">Barcelona</span> amb el
+<span class="destacat">tren</span> i em va fer <span class="destacat">treure</span> totes les <span class="destacat">joies</span> del <span class="destacat">banc</span>; <span class="destacat">se</span> les havia <span class="destacat">d'endur</span> a
+<span class="destacat">Suïssa</span> i <span class="destacat">se</span> <span class="destacat">n'anava</span> aquella mateixa <span class="destacat">tarda</span>. Em va fer <span class="destacat">firmar</span> uns <span class="destacat">poders</span>
+per <span class="destacat">dipositar-les</span> a <span class="destacat">nom</span> meu al <span class="destacat">banc</span> de <span class="destacat">Ginebra</span>.
+
+—No et fa <span class="destacat">por</span> <span class="destacat">quedar-te</span> <span class="destacat">sola</span> uns <span class="destacat">dies</span> a <span class="destacat">Barcelona</span>?
+—<span class="destacat">Por</span>?
+—Et faré <span class="destacat">venir</span> a <span class="destacat">buscar</span> de seguida que <span class="destacat">sigui</span> <span class="destacat">possible</span>.
+
+Quan vaig <span class="destacat">sentir</span> els <span class="destacat">primers</span> <span class="destacat">trets</span>, <span class="destacat">llunyans</span> jo estava llegint. Estava de
+molt mal humor perquè <span class="destacat">m'havien</span> de <span class="destacat">venir</span> a <span class="destacat">buscar</span> a principi de
+<span class="destacat">setmana</span> i encara no <span class="destacat">m'havien</span> <span class="destacat">dit</span> <span class="destacat">res</span>.
+
+<span class="destacat">Finalment</span> l'<span class="destacat">amic</span> de <span class="destacat">l'Esteve</span> em va <span class="destacat">trucar</span>. <span class="destacat">Feia</span> una veu molt <span class="destacat">estranya</span>,
+amb unes <span class="destacat">pauses</span> sense <span class="destacat">sentit</span>. Em va <span class="destacat">dir</span> que li era <span class="destacat">impossible</span> <span class="destacat">venir-me</span>
+a <span class="destacat">buscar</span>.
+
+—On ets? -li vaig <span class="destacat">preguntar</span>
+
+—Al <span class="destacat">despatx</span> de la <span class="destacat">Via</span> <span class="destacat">Laietana</span>-va murmurar.
+
+—Vinc—I vaig <span class="destacat">penjar</span>.
+
+No vaig <span class="destacat">arribar</span> a la <span class="destacat">via</span> <span class="destacat">Laietana</span>. A la <span class="destacat">Plaça</span> Urquinaona, vaig haver de
+<span class="destacat">tombar</span> pel <span class="destacat">carrer</span> de <span class="destacat">Fontanella</span>. I llavors va <span class="destacat">esberlar-se</span> amb la <span class="destacat">fúria</span>
+<span class="destacat">embogida</span> d'uns <span class="destacat">focs</span> <span class="destacat">artificials</span>, un <span class="destacat">repiqueteig</span> de <span class="destacat">metralladores</span> i de
+<span class="destacat">màusers</span>. Hi havia molta <span class="destacat">gent</span> a la <span class="destacat">plaça</span> de <span class="destacat">Catalunya</span> que <span class="destacat">corria</span> i
+<span class="destacat">xisclava</span> i <span class="destacat">queia</span>, sobre els <span class="destacat">cavalls</span> <span class="destacat">morts</span>, sobre les <span class="destacat">pedres</span>
+<span class="destacat">encimbellades</span>, no hi havia <span class="destacat">cap</span> portal obert i la <span class="destacat">gent</span> s'arrambava
+inútilment a les <span class="destacat">parets</span>, jo <span class="destacat">preferia</span> <span class="destacat">seguir</span> <span class="destacat">caminant</span>. <span class="destacat">Sentia</span> <span class="destacat">xiular</span> les
+<span class="destacat">bales</span>, però no <span class="destacat">pensava</span> que em <span class="destacat">podrien</span> <span class="destacat">matar</span>, només estava <span class="destacat">furiosa</span>
+perquè no <span class="destacat">m'havien</span> <span class="destacat">deixat</span> anar <span class="destacat">avall</span>, <span class="destacat">cap</span> a <span class="destacat">via</span> <span class="destacat">Laietana</span>, i aquell
+<span class="destacat">imbècil</span> <span class="destacat">se</span> <span class="destacat">n'aniria</span> sense <span class="destacat">mi</span>, i jo <span class="destacat">m'hauria</span> de <span class="destacat">quedar</span> sense <span class="destacat">estiueig</span>, en
+aquella <span class="destacat">calor</span> <span class="destacat">enganxosa</span> de <span class="destacat">Barcelona</span>.
+
+Vaig <span class="destacat">passar</span> tots aquells <span class="destacat">dies</span> de <span class="destacat">juliol</span> a <span class="destacat">punt</span> de <span class="destacat">marxa</span>, <span class="destacat">esperant</span> que
+<span class="destacat">algú</span> em vingués a <span class="destacat">buscar</span>.
+
+<span class="destacat">Ell</span> va <span class="destacat">entrar</span> a <span class="destacat">casa</span> nostra el 4 <span class="destacat">d'agost</span>. <span class="destacat">Portava</span> un <span class="destacat">paper</span> <span class="destacat">segellat</span>.
+
+—<span class="destacat">Vostè</span> <span class="destacat">deu</span> ser la <span class="destacat">mestressa</span> de la <span class="destacat">casa</span>, <span class="destacat">naturalment</span>. <span class="destacat">Portem</span> <span class="destacat">ordre</span>
+<span class="destacat">d'incautar</span> aquesta <span class="destacat">torre</span>.
+
+No <span class="destacat">portava</span> <span class="destacat">fusell</span>, només una <span class="destacat">pistola</span> a la <span class="destacat">cintura</span>. Va <span class="destacat">caminar</span>
+<span class="destacat">lentament</span>, <span class="destacat">suposant</span> que jo li <span class="destacat">deixaria</span> pas i jo li vaig <span class="destacat">deixar</span> pas.
+
+<span class="destacat">Benito</span> Garrido. -Em va fer <span class="destacat">gràcia</span> el seu <span class="destacat">nom</span>
+—Què <span class="destacat">vols</span>? Que em <span class="destacat">digui</span> <span class="destacat">Benet</span> <span class="destacat">Garrit</span>?
+
+Era més <span class="destacat">jove</span> que jo. Jo <span class="destacat">tenia</span> aleshores <span class="destacat">trenta-cinc</span> <span class="destacat">anys</span> i <span class="destacat">ell</span> en <span class="destacat">tenia</span>
+<span class="destacat">vint</span>-i-<span class="destacat">quatre</span>. Quan m'arraulia al seu <span class="destacat">pit</span> <span class="destacat">dur</span>, <span class="destacat">sòlid</span> i li <span class="destacat">deia</span>: -"Tinc més
+<span class="destacat">anys</span> que <span class="destacat">tu</span>, molts més <span class="destacat">anys</span> que <span class="destacat">tu</span>", em <span class="destacat">contestava</span>: -"<span class="destacat">Tens</span> centenar
+<span class="destacat">d'anys</span> més que jo. Ets <span class="destacat">filla</span> dels <span class="destacat">amos</span>, <span class="destacat">tu</span>, encara que no <span class="destacat">vulguis</span>. I les
+<span class="destacat">paraules</span> que <span class="destacat">dius</span> <span class="destacat">tenen</span> <span class="destacat">segles</span>".
+
+Vam <span class="destacat">començar</span> el <span class="destacat">trasllat</span> de <span class="destacat">mobles</span>. A la <span class="destacat">planta</span> <span class="destacat">baixa</span> hi havia un <span class="destacat">servei</span>
+<span class="destacat">d'urgència</span>; al primer <span class="destacat">pis</span>, la <span class="destacat">sala</span> de <span class="destacat">repòs</span>, i els <span class="destacat">despatxos</span>; al <span class="destacat">segon</span> <span class="destacat">pis</span>,
+els <span class="destacat">quiròfans</span>; a les <span class="destacat">golfes</span> hi vam <span class="destacat">amuntegar</span>: <span class="destacat">consoles</span>, <span class="destacat">armaris</span>, <span class="destacat">llits</span>,
+catifes, <span class="destacat">cortines</span>, quadres, miralls.
+
+El <span class="destacat">dia</span> <span class="destacat">18</span> <span class="destacat">d'agost</span> <span class="destacat">Benito</span> <span class="destacat">se'n</span> va anar <span class="destacat">cap</span> a <span class="destacat">terres</span> <span class="destacat">d'Osca</span>, en un <span class="destacat">tren</span>
+<span class="destacat">blindat</span> amb <span class="destacat">planxes</span> de <span class="destacat">ferro</span> <span class="destacat">clavades</span>.
+
+—Quan <span class="destacat">torni</span> no et trobaré.
+
+—Si que em trobaràs.
+
+I va <span class="destacat">tornar</span>, durant aquells <span class="destacat">dos</span> <span class="destacat">anys</span>, <span class="destacat">cinc</span> <span class="destacat">vegades</span>.
+
+Quan <span class="destacat">ell</span> va <span class="destacat">desaparèixer</span>, perquè <span class="destacat">mai</span> no he <span class="destacat">arribat</span> a saber la seva
+<span class="destacat">mort</span>, vaig <span class="destacat">entendre</span> per <span class="destacat">primera</span> <span class="destacat">vegada</span> què <span class="destacat">significa</span> la <span class="destacat">soledat</span>, que no
+és altra <span class="destacat">cosa</span> que el <span class="destacat">desacord</span> <span class="destacat">absolut</span> amb tot el que <span class="destacat">tens</span> a <span class="destacat">l'abast</span>.
+
+Només em <span class="destacat">permetia</span> <span class="destacat">seguir</span> <span class="destacat">vivint</span> una <span class="destacat">petita</span> <span class="destacat">mentida</span> que em <span class="destacat">deia</span> a <span class="destacat">mi</span>
+mateixa: -"No és <span class="destacat">mort</span>, <span class="destacat">tornarà</span>, i quan <span class="destacat">torni</span>, <span class="destacat">valdrà</span> la <span class="destacat">pena</span> haver <span class="destacat">viscut</span>
+tot aquest <span class="destacat">temps</span> <span class="destacat">esperant-lo</span>".
+
+13.
+
+I després els <span class="destacat">anys</span> de la <span class="destacat">por</span> i la tornada de tots a <span class="destacat">Barcelona</span>.
+
+<span class="destacat">L'Esteve</span> va <span class="destacat">empènyer</span> la <span class="destacat">porta</span>, que era <span class="destacat">oberta</span>, i va <span class="destacat">entrar</span>. De totes les
+<span class="destacat">coses</span> que <span class="destacat">esperava</span> <span class="destacat">trobar</span> era la que <span class="destacat">menys</span> <span class="destacat">hauria</span> <span class="destacat">pogut</span> <span class="destacat">preveure</span>:
+<span class="destacat">estibes</span> de <span class="destacat">flassades</span>, <span class="destacat">estibes</span> de <span class="destacat">llits</span>, <span class="destacat">estibes</span> de <span class="destacat">cadires</span>, tot estava
+<span class="destacat">preparat</span> per a <span class="destacat">carregar-ho</span> en <span class="destacat">camions</span>, però els <span class="destacat">camions</span> no <span class="destacat">havien</span>
+<span class="destacat">arribat</span>.
+
+Van trigar un <span class="destacat">temps</span> a <span class="destacat">trobar-me</span>. <span class="destacat">L'Esteve</span> va <span class="destacat">agafar</span> un <span class="destacat">home</span> de
+<span class="destacat">confiança</span> per fer-ho. Em van <span class="destacat">buscar</span> en una <span class="destacat">pensió</span> del <span class="destacat">carrer</span> del
+<span class="destacat">Carme</span> on havia <span class="destacat">viscut</span>. En una <span class="destacat">parada</span> de <span class="destacat">verdures</span> de la <span class="destacat">Boqueria</span> on
+havia <span class="destacat">fet</span> de <span class="destacat">dependenta</span>. En un <span class="destacat">restaurant</span> de <span class="destacat">darrere</span> el Parc on <span class="destacat">anava</span>
+a dinar. <span class="destacat">Finalment</span>, <span class="destacat">l'home</span> de <span class="destacat">confiança</span>, va anar al <span class="destacat">despatx</span> de <span class="destacat">l'Esteve</span>:
+—Ja <span class="destacat">l'he</span> <span class="destacat">trobada</span>. Fa <span class="destacat">feines</span> en un <span class="destacat">bar</span> del <span class="destacat">passeig</span> de la <span class="destacat">Barceloneta</span>.
+
+<span class="destacat">Plega</span> a les <span class="destacat">sis</span> de la <span class="destacat">tarda</span> i <span class="destacat">surt</span> per la <span class="destacat">porta</span> del <span class="destacat">darrere</span> que <span class="destacat">dóna</span> al
+<span class="destacat">carreró</span>.
+
+Quan vaig <span class="destacat">obrir</span> la <span class="destacat">porta</span> del <span class="destacat">pati</span> per <span class="destacat">deixar</span> el cubell de les
+<span class="destacat">escombraries</span> a la <span class="destacat">voravia</span>, vaig <span class="destacat">veure</span> <span class="destacat">l'Esteve</span> que s'acostava. La seva
+ma va fer un <span class="destacat">soroll</span> sec damunt la meva galta. Vaig <span class="destacat">trontollar</span> i vaig
+<span class="destacat">caure</span> <span class="destacat">enrere</span>. <span class="destacat">L'Esteve</span> va evitar que caigués, em va <span class="destacat">alçar</span> sense
+dificultats. Em va <span class="destacat">dur</span> fins el <span class="destacat">cotxe</span> i el va <span class="destacat">posar</span> en <span class="destacat">marxa</span>.
+
+M'oferia <span class="destacat">l'oblit</span> del <span class="destacat">passat</span>. Havia <span class="destacat">comprat</span> una <span class="destacat">casa</span> al <span class="destacat">carrer</span> <span class="destacat">d'Iradier</span>, a
+<span class="destacat">l'altra</span> <span class="destacat">cantó</span> del <span class="destacat">passeig</span> de la <span class="destacat">Bonanova</span>.
+
+Vaig acceptar, però amb una condició. <span class="destacat">Vull</span> que em portin les meves
+<span class="destacat">joies</span>. Totes. Dins un <span class="destacat">maletí</span> de <span class="destacat">pell</span> <span class="destacat">negra</span>. Un <span class="destacat">maletí</span> que he <span class="destacat">vist</span> a la <span class="destacat">casa</span>
+<span class="destacat">Loewe</span>.
+
+14.
+
+Estava <span class="destacat">cansada</span>... <span class="destacat">dolorosament</span> <span class="destacat">cansada</span>. <span class="destacat">Dormir</span> <span class="destacat">profundament</span> era
+<span class="destacat">l'única</span> <span class="destacat">cosa</span> que <span class="destacat">volia</span>. <span class="destacat">Dormir</span> del tot fins a <span class="destacat">l'oblit</span> de <span class="destacat">mi</span> mateixa. <span class="destacat">Volia</span>
+<span class="destacat">dormir</span> sense <span class="destacat">rastre</span> de <span class="destacat">dolor</span>, i no haver de <span class="destacat">treure</span> el meu <span class="destacat">cos</span> <span class="destacat">cansat</span> de
+<span class="destacat">l'escalf</span> dels <span class="destacat">llençols</span>, i no haver de <span class="destacat">suportar</span> el meu propi <span class="destacat">pes</span> durant tot
+el <span class="destacat">dia</span>.
+
+Vaig <span class="destacat">desfer</span> les <span class="destacat">pastilles</span> de <span class="destacat">veronal</span> en el vas, una darrera <span class="destacat">l'altra</span> amb
+<span class="destacat">paciència</span>, i vaig <span class="destacat">engolir</span> tot el <span class="destacat">contingut</span>, <span class="destacat">lentament</span>.
+
+Em vaig <span class="destacat">despertar</span> a la <span class="destacat">clínica</span>. <span class="destacat">l'Esteve</span> em <span class="destacat">tenia</span> la <span class="destacat">mà</span> <span class="destacat">agafada</span>. No li
+<span class="destacat">veia</span> els <span class="destacat">ulls</span> perquè ja <span class="destacat">duia</span> les <span class="destacat">ulleres</span> <span class="destacat">fosques</span> amb <span class="destacat">muntura</span> de <span class="destacat">carei</span>.
+
+Els <span class="destacat">llavis</span> li <span class="destacat">tremolaven</span> i vaig <span class="destacat">sentir</span> que <span class="destacat">deia</span>: —"No <span class="destacat">tenies</span> <span class="destacat">dret</span> a fer
+això."
+<span class="destacat">15</span>.
+
+El setembre de 1951 <span class="destacat">l'Esteve</span>, la <span class="destacat">Rossy</span> i tota la <span class="destacat">família</span> <span class="destacat">sèiem</span> al <span class="destacat">jardí</span> de
+la <span class="destacat">casa</span> de <span class="destacat">Roses</span>. <span class="destacat">L'Esteve</span> <span class="destacat">l'havia</span> <span class="destacat">llogada</span> <span class="destacat">dos</span> <span class="destacat">anys</span> abans i havia <span class="destacat">acabat</span>
+per <span class="destacat">comprar-la</span>.
+
+El meu nebot va <span class="destacat">deixar</span> la <span class="destacat">tassa</span> sobre la <span class="destacat">taula</span> de <span class="destacat">marbre</span> i va <span class="destacat">dir</span>.
+
+—<span class="destacat">M'agradaria</span> anar amb <span class="destacat">tu</span> a Paris, <span class="destacat">Carola</span>. Hi <span class="destacat">aniríem</span> a la <span class="destacat">primavera</span> i
+<span class="destacat">fent</span> <span class="destacat">auto-stop</span>.
+
+Jo vaig <span class="destacat">obrir</span> el <span class="destacat">ulls</span> i li vaig <span class="destacat">somriure</span>:
+—I per què?
+—Per desvetllar-te.
+
+El meu cunyat va <span class="destacat">dir</span> amb el seu <span class="destacat">murmuri</span> <span class="destacat">càlid</span>:
+—La <span class="destacat">Carola</span> no <span class="destacat">dorm</span>, <span class="destacat">viatja</span> per un <span class="destacat">món</span> de <span class="destacat">somnis</span>.
+
+—La mamà—va <span class="destacat">dir</span> la <span class="destacat">Rossy</span>—ha <span class="destacat">trobat</span> un <span class="destacat">sistema</span> <span class="destacat">magnífic</span> per a
+<span class="destacat">esborrar-nos</span> tots del seu <span class="destacat">davant</span>: <span class="destacat">acluca</span> els <span class="destacat">ulls</span>. I quan els obre es <span class="destacat">queda</span>
+<span class="destacat">sorpresa</span> de <span class="destacat">trobar-nos</span> altre <span class="destacat">cop</span>.
+
+—Vosaltres que trobeu? —va <span class="destacat">dir</span> <span class="destacat">l'altre</span> cunyat que <span class="destacat">fullejava</span> el <span class="destacat">Destino</span> -
+¡Els <span class="destacat">mataran</span> o no els <span class="destacat">mataran</span> els <span class="destacat">Rosenberg</span>?
+—Qui <span class="destacat">dius</span>? —va <span class="destacat">preguntar</span> la <span class="destacat">Rossy</span>.
+
+—Uns <span class="destacat">jueus</span> <span class="destacat">americans</span> <span class="destacat">acusats</span> <span class="destacat">d'espionatge</span>...
+
+—Uns <span class="destacat">jueus</span>? —va <span class="destacat">dir</span> la <span class="destacat">Rossy</span>—Els <span class="destacat">jueus</span> <span class="destacat">tenen</span> la culpa de tot.
+
+—De què? —va <span class="destacat">preguntar</span> el meu nebot.
+
+—<span class="destacat">Ai</span>, no ho <span class="destacat">sé</span>... De tot.
+
+—On vas? —em va <span class="destacat">preguntar</span> <span class="destacat">l'Esteve</span>
+—<span class="destacat">Pujo</span> un <span class="destacat">moment</span> a la meva <span class="destacat">habitació</span>.
+
+Vaig <span class="destacat">posar-me</span> un <span class="destacat">vestit</span> <span class="destacat">jaqueta</span> de <span class="destacat">llana</span> <span class="destacat">prima</span>, vaig <span class="destacat">calçar-me</span> unes
+<span class="destacat">sabates</span> de <span class="destacat">sola</span> <span class="destacat">gruixuda</span> i em vaig <span class="destacat">passar</span> la <span class="destacat">pinta</span> pel <span class="destacat">cabell</span>. Vaig <span class="destacat">obrir</span>
+la <span class="destacat">porta</span> de <span class="destacat">l'habitació</span> de <span class="destacat">l'Esteve</span>. <span class="destacat">Penjada</span> al <span class="destacat">chevalier</span> hi havia
+<span class="destacat">l'americana</span> <span class="destacat">blanca</span>. A <span class="destacat">l'infern</span> de <span class="destacat">l'americana</span> hi havia la <span class="destacat">cartera</span>, en vaig
+<span class="destacat">treure</span> <span class="destacat">dues</span> <span class="destacat">mil</span> <span class="destacat">pessetes</span>. Vaig <span class="destacat">entrar</span> a la meva <span class="destacat">cambra</span> i vaig <span class="destacat">agafar</span> el
+<span class="destacat">maletí</span> de les <span class="destacat">joies</span>. Vaig <span class="destacat">sortir</span> per la <span class="destacat">porta</span> de la <span class="destacat">cuina</span> i a <span class="destacat">bon</span> pas vaig
+<span class="destacat">arribar</span> a la <span class="destacat">carretera</span>.
+
+Vaig <span class="destacat">tardar</span> <span class="destacat">dos</span> <span class="destacat">dies</span> a <span class="destacat">arribar</span> a <span class="destacat">París</span>. El <span class="destacat">cotxe</span> que em <span class="destacat">portava</span> va
+<span class="destacat">entrar</span> per <span class="destacat">Vincennes</span>. Vaig <span class="destacat">agafar</span> el metro per <span class="destacat">primera</span> <span class="destacat">vegada</span> i com
+un <span class="destacat">talp</span> que <span class="destacat">busqués</span> la <span class="destacat">sortida</span>, vaig emergir a la <span class="destacat">plaça</span> de Saint-
+Germain-des-Prés. Em vaig <span class="destacat">asseure</span> al <span class="destacat">Deux</span> <span class="destacat">Magots</span> i mentre em <span class="destacat">prenia</span>
+
+un <span class="destacat">cafè</span> amb <span class="destacat">llet</span>, ordenava de <span class="destacat">nou</span> la meva <span class="destacat">vida</span> i esborrava
+definitivament el meu <span class="destacat">passat</span>.
+
+No em <span class="destacat">feia</span> <span class="destacat">por</span> la <span class="destacat">mort</span>, em <span class="destacat">feia</span> <span class="destacat">por</span> la <span class="destacat">por</span> a la <span class="destacat">fam</span>, que <span class="destacat">humilia</span> i
+<span class="destacat">prostitueix</span>, la <span class="destacat">fam</span> <span class="destacat">vergonyosa</span> que <span class="destacat">buida</span> l'estomac a <span class="destacat">petites</span> <span class="destacat">cullerades</span>.
+
+Allí mateix vaig <span class="destacat">decidir</span> com <span class="destacat">utilitzaria</span> la meva <span class="destacat">llibertat</span> i el meus
+<span class="destacat">diners</span>. Buscaria un <span class="destacat">lloc</span> on <span class="destacat">instal·lar-hi</span> un <span class="destacat">petit</span> <span class="destacat">restaurant</span>. <span class="destacat">Seria</span>
+<span class="destacat">exigent</span> amb els <span class="destacat">clients</span>, els <span class="destacat">deixaria</span> <span class="destacat">entrar</span> un a un i després de <span class="destacat">fer-me</span>
+<span class="destacat">pregar</span>, i quan <span class="destacat">pagarien</span> el conte ho <span class="destacat">farien</span> <span class="destacat">convençuts</span> que <span class="destacat">havien</span>
+<span class="destacat">aconseguit</span> un <span class="destacat">privilegi</span>.
+
+A la <span class="destacat">porta</span> del <span class="destacat">restaurant</span> vaig fer <span class="destacat">posar</span> un <span class="destacat">rètol</span> que <span class="destacat">deia</span>: <span class="destacat">Chez</span> Jokai.
+
+Era el <span class="destacat">cognom</span> de <span class="destacat">l'autor</span> d'una novel·la, una <span class="destacat">vella</span> <span class="destacat">lectura</span> dels <span class="destacat">temps</span>
+<span class="destacat">feliços</span>. Es <span class="destacat">titulava</span> La <span class="destacat">dama</span> dels <span class="destacat">ulls</span> de <span class="destacat">mar</span>. Aquell <span class="destacat">nom</span> a la <span class="destacat">porta</span> em
+<span class="destacat">recordava</span> la <span class="destacat">dama</span> dels <span class="destacat">ulls</span> <span class="destacat">canviants</span> com les <span class="destacat">aigües</span> del <span class="destacat">mar</span>, i una
+<span class="destacat">sentència</span> de <span class="destacat">l'autor</span> que <span class="destacat">deia</span>, més o <span class="destacat">menys</span>, que <span class="destacat">sempre</span> <span class="destacat">cal</span> que <span class="destacat">deixis</span>
+al <span class="destacat">plat</span> les <span class="destacat">últimes</span> <span class="destacat">cullerades</span>, les més <span class="destacat">bones</span>, les més <span class="destacat">desitjades</span>. <span class="destacat">Cal</span> que
+<span class="destacat">t'aixequis</span> de la <span class="destacat">taula</span> <span class="destacat">abandonant</span> el <span class="destacat">festí</span>, perquè <span class="destacat">esgotar</span> allò que
+<span class="destacat">desitges</span> és la <span class="destacat">condemna</span> a <span class="destacat">mort</span>.
+
+
+            </div>
+        </div>
+    </body>
+    </html>
+    
